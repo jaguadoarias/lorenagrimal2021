@@ -1,10 +1,9 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import Meta from './Meta'
 import Nav from './Nav'
 import Footer from './Footer'
-import GithubCorner from './GithubCorner'
 
 import 'modern-normalize/modern-normalize.css'
 import './globalStyles.css'
@@ -51,15 +50,16 @@ export default ({ children, meta, title }) => {
           }
 
         return (
-          <Fragment>
+          <>
             <Helmet
               defaultTitle={siteTitle}
-              titleTemplate={`%s | ${siteTitle}`}
+              titleTemplate={`%s - ${siteTitle}`}
             >
               {title}
               <link href="https://ucarecdn.com" rel="preconnect" crossorigin />
               <link rel="dns-prefetch" href="https://ucarecdn.com" />
-              {/* Add font link tags here */}
+              <link rel="preconnect" href="https://fonts.gstatic.com" />
+              <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
             </Helmet>
 
             <Meta
@@ -73,14 +73,12 @@ export default ({ children, meta, title }) => {
               {...data.settingsYaml}
             />
 
-            <GithubCorner url="https://github.com/thriveweb/yellowcake" />
-
             <Nav subNav={subNav} />
 
-            <Fragment>{children}</Fragment>
+            {children}
 
             <Footer />
-          </Fragment>
+          </>
         )
       }}
     />

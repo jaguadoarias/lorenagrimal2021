@@ -2,10 +2,9 @@ import React from 'react'
 import './Logo.css'
 
 export default () => (
-  <div
+  <img
     className="Logo"
-    style={{
-      backgroundImage: `url(/images/logo.svg)`
-    }}
+    alt="Lorena Grimal. Psicóloga y mentora"
+    src={'/images/lorena_grimal.svg'}
   />
 )
