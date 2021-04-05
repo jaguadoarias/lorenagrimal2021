@@ -1,10 +1,12 @@
 :root {
-  --primary: #00c2bd;
+  --primary: #487E86;
+  --primaryLight: #64A2AB;
   --secondary: #000;
+  --secondaryLight: #DBB246;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
   --darkGrey: #272727;
-  --danger: #ff3d3d;
+  --danger: #C74817;
   --font-primary: 'Poppins', sans-serif;
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 3px;

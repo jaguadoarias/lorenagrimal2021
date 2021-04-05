@@ -58,7 +58,7 @@ export class Navigation extends Component {
       )
 
     return (
-      <header className={`Header${active ? 'Header-active' : ''}`}>
+      <header className={`Header${active ? ' Header-active' : ''}`}>
         <nav className="Nav container">
           <Link
             to="/"
@@ -71,8 +71,10 @@ export class Navigation extends Component {
             <Logo />
           </Link>
           <div className="Nav--Links">
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="/">Inicio</NavLink>
             <NavLink to="/components/">Components</NavLink>
+            <NavLink to="/default/">Default</NavLink>
+            <NavLink to="/contact/">Contacto</NavLink>
             <div
               className={`Nav--Group ${
                 this.state.activeSubNav === 'posts' ? 'active' : ''
@@ -109,8 +111,6 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-            <NavLink to="/default/">Default</NavLink>
-            <NavLink to="/contact/">Contact</NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"
