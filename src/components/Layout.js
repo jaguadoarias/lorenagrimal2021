@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 import Meta from './Meta'
-import Nav from './Nav'
+import Header from './Header'
 import Footer from './Footer'
 
 import 'modern-normalize/modern-normalize.css'
@@ -73,7 +73,7 @@ export default ({ children, meta, title }) => {
               {...data.settingsYaml}
             />
 
-            <Nav subNav={subNav} />
+            <Header subNav={subNav} />
 
             {children}
 

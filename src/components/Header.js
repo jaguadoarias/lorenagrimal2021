@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import { Menu, X } from 'react-feather'
 import Logo from './Logo'
 
-import './Nav.css'
+import './Header.css'
 
 export class Navigation extends Component {
   state = {
@@ -58,8 +58,8 @@ export class Navigation extends Component {
       )
 
     return (
-      <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
-        <div className="Nav--Container container">
+      <header className={`Header${active ? 'Header-active' : ''}`}>
+        <nav className="Nav container">
           <Link
             to="/"
             onClick={this.handleLinkClick}
@@ -120,8 +120,8 @@ export class Navigation extends Component {
           >
             {active ? <X /> : <Menu />}
           </button>
-        </div>
-      </nav>
+        </nav>
+      </header>
     )
   }
 }
