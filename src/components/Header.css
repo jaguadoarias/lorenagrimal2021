@@ -36,7 +36,7 @@
   display: block;
   font-weight: 500;
   transition: all ease 0.2s;
-  color: inherit;
+  color: var(--primary);
   text-decoration: none;
   background-color: transparent;
   border-radius: var(--borderRadius);
@@ -63,13 +63,18 @@
   position: absolute;
   top: calc(50% - 0.2rem);
   right: 1rem;
-  border-bottom: 2px solid var(--darkGrey);
-  border-right: 2px solid var(--darkGrey);
+  border-bottom: 2px solid var(--primary);
+  border-right: 2px solid var(--primary);
   display: block;
   height: 0.8rem;
   width: 0.8rem;
   transition: 0.3s ease all;
   transform: translateY(-50%) rotate(45deg);
+}
+
+.Nav--GroupParent:hover::after,
+.Nav--GroupParent.active::after {
+  border-color: #fff;
 }
 
 .Nav--GroupLinks {

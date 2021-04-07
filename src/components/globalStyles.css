@@ -7,7 +7,7 @@
   --midGrey: #cacaca;
   --darkGrey: #272727;
   --danger: #C74817;
-  --font-primary: 'Poppins', sans-serif;
+  --font-primary: 'Lora', serif;
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 20px;
 }
@@ -56,7 +56,7 @@ body {
   position: relative;
   background: white;
   color: var(--secondary);
-  font-size: 1.6em;
+  font-size: 1.8rem;
   font-weight: 400;
   letter-spacing: 0.01em;
   line-height: 1.6;

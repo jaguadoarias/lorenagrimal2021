@@ -72,8 +72,8 @@ export class Navigation extends Component {
           </Link>
           <div className="Nav--Links">
             <NavLink to="/">Inicio</NavLink>
-            <NavLink to="/components/">Components</NavLink>
-            <NavLink to="/default/">Default</NavLink>
+            <NavLink to="/components/">Sobre mi</NavLink>
+            <NavLink to="/default/">Publicaciones</NavLink>
             <NavLink to="/contact/">Contacto</NavLink>
             <div
               className={`Nav--Group ${
@@ -94,7 +94,7 @@ export class Navigation extends Component {
                 aria-label="Navigation"
                 role="button"
               >
-                Blog
+                El Blog
                 <div className="Nav--GroupLinks">
                   <NavLink to="/blog/" className="Nav--GroupLink">
                     All Posts
