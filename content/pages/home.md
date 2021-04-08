@@ -1,10 +1,10 @@
 ---
 template: HomePage
 slug: ''
-subheading: Blabalalalala
-title: Lorena Grimal
-featuredImage: 'https://ucarecdn.com/9eb3b8e8-0776-451a-8b6f-c45ff9f78735/home.jpg'
-subtitle: ' Transformando Mentes'
+subheading: Lorena Grimal
+title: Psicóloga y Mentora
+featuredImage: 'http://ucarecdn.com/9eb3b8e8-0776-451a-8b6f-c45ff9f78735/-/crop/600x300/'
+subtitle: 'Transformando Mentes'
 meta:
   description: This is a meta description.
   title: Lorena Grimal

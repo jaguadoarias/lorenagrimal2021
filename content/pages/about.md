@@ -1,16 +1,32 @@
 ---
-template: ComponentsPage
-slug: components
-title: Components Page
+template: AboutPage
+slug: about
+title: Conoce quién soy
 featuredImage: https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/
 subtitle: This is the components page subtitle.
 section1: >-
   ## This is a container component
 
-  A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
+  Me fascinan la mente humana y por eso me dedico a trabajar con personas acompañando en procesos de transformación y crecimiento.
 
 
-  [Dictumst a ultrices mi]() a dignissim ad fermentum eget a nam et a blandit scelerisque. Taciti lorem tempor quam vestibulum dis habitasse vestibulum diam vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt vestibulum.
+  Estudié psicología y llevo más de 20 años trabajando en el ámbito clínico y en el ámbito empresarial y de recursos humanos, y esas vivencias las pongo a tu disposición.
+
+
+  Si sientes que estás en momento de cambio y quieres un profesional que esté contigo en tu proceso de transformación, te invito a que conectemos.
+
+
+  Dar el salto a creer en ti, confiar en tus recursos, recolocar tu mente, entrenarla para llegar a tus objetivos, esto es todo lo que yo hago con mis clientes.
+
+
+  Escucho frases maravillosas a diario, quizá la más recurrente es “por qué no fui consciente antes de todo el potencial”, y, si tú estás en ese momento, no esperes, la clave es pasar a la acción, y estás a sólo un click de dar el salto.
+
+
+  El miedo nos paraliza si nosotros creemos que nos bloquea, pero podemos transformarlo en nuestro acompañante si nos movemos para la acción, si nos damos más poder a nosotros mismos que a vosotros.
+  
+
+  No hay miedo, pasa a la acción y reserva ahora tu sesión conmigo, analizaremos juntos tu situación actual.
+
 section2: >-
   ## You can use videos, images and text.
 
