@@ -36,6 +36,7 @@
   display: block;
   font-weight: 500;
   transition: all ease 0.2s;
+  line-height: 1.5;
   color: var(--primary);
   text-decoration: none;
   background-color: transparent;
@@ -46,7 +47,7 @@
 .NavLink.active,
 .NavLink:focus {
   color: var(--lightGrey);
-  background-color: var(--secondaryLight);
+  background-color: var(--secondary);
 }
 
 .Nav--Group {
@@ -79,7 +80,7 @@
 
 .Nav--GroupLinks {
   position: absolute;
-  top: calc(100% + 2rem);
+  top: calc(100% + 2.9rem);
   left: 0;
   width: auto;
   background: white;
@@ -105,7 +106,7 @@
   position: relative;
   width: 15rem;
   --borderRadius: 0;
-  color: black; 
+  color: var(--primary); 
 }
 
 @media (max-width: 1024px) {

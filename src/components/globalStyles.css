@@ -2,12 +2,13 @@
   --primary: #487E86;
   --primaryLight: #D1E2DB;
   --secondary: #DBB246;
-  --secondaryLight: #DBB246;
+  --secondaryLight: #E7D198;
   --lightGrey: whitesmoke;
   --midGrey: #cacaca;
   --darkGrey: #272727;
   --danger: #C74817;
-  --font-primary: 'Lora', serif;
+  --font-primary: 'Josefin Sans', sans-serif;
+  --font-secondary: 'Caveat', cursive;
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 20px;
 }
@@ -214,6 +215,10 @@ blockquote {
 }
 .container.skinnier {
   max-width: 555px;
+}
+
+.section p {
+  font-size: 2rem;
 }
 
 /* Buttons */

@@ -3,12 +3,8 @@ template: AboutPage
 slug: about
 title: Conoce quién soy
 featuredImage: https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/
-subtitle: This is the components page subtitle.
+subtitle: Hola, soy Lorena, me fascina la mente humana y por eso me dedico a trabajar con personas acompañándolas en procesos de transformación y crecimiento.
 section1: >-
-  ## This is a container component
-
-  Me fascinan la mente humana y por eso me dedico a trabajar con personas acompañando en procesos de transformación y crecimiento.
-
 
   Estudié psicología y llevo más de 20 años trabajando en el ámbito clínico y en el ámbito empresarial y de recursos humanos, y esas vivencias las pongo a tu disposición.
 
@@ -23,9 +19,13 @@ section1: >-
 
 
   El miedo nos paraliza si nosotros creemos que nos bloquea, pero podemos transformarlo en nuestro acompañante si nos movemos para la acción, si nos damos más poder a nosotros mismos que a vosotros.
-  
+
 
   No hay miedo, pasa a la acción y reserva ahora tu sesión conmigo, analizaremos juntos tu situación actual.
+
+
+  <>RESERVA TU SESIÓN DE DIAGNÓSTICO GRATUITA<>
+
 
 section2: >-
   ## You can use videos, images and text.
@@ -56,5 +56,5 @@ gallery:
     title: Yellow Ice Cream
 meta:
   description: This is a meta description.
-  title: Components Page
+  title: Conoceme
 ---

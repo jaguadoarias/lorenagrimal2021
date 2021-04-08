@@ -1,7 +1,7 @@
 .PageHeader {
-  background-color: var(--darkGrey);
+  background-color: var(--primary);
   color: white;
-  padding: 15rem 0;
+  padding: 10rem 0;
 }
 
 .PageHeader .BackgroundImage {
@@ -9,17 +9,27 @@
 }
 
 .PageHeader-large {
-  padding: 20rem 0;
+  padding: 15rem 0;
 }
 
 .PageHeader--Title {
   font-size: 6rem;
+  line-height: 1;
   margin-bottom: 0;
+  max-width: 70%;
 }
 
 .PageHeader--Subtitle {
   font-weight: 400;
-  font-size: 2.4rem;
+  font-size: 3.4rem;
+  font-family: var(--font-secondary);
+  line-height: 1.2;
+  max-width: 80%;
+}
+.PageHeader--Subheading {
+  font-family: var(--font-secondary);
+  font-size: 4rem;
+  color: var(--secondaryLight);
 }
 
 .PageHeader .container {

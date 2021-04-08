@@ -2,12 +2,12 @@
 template: HomePage
 slug: ''
 subheading: Lorena Grimal
-title: Psicóloga y Mentora
-featuredImage: 'http://ucarecdn.com/9eb3b8e8-0776-451a-8b6f-c45ff9f78735/-/crop/600x300/'
-subtitle: 'Transformando Mentes'
+title: Mentoring y psicología para transformar mentes.
+featuredImage: 'https://ucarecdn.com/efad606c-51d2-4948-a380-f44fe6beebb8/'
+subtitle: 
 meta:
-  description: This is a meta description.
-  title: Lorena Grimal
+  description: Lorena Grimal psicologia y mentoring, te acompaña en procesos de transformación a través de sesiones individuales, sesiones grupales, sesiones online para que alcances tu bienestar emocional con una metodología de mentoría estratégica basada en la terapia breve estratégica.
+  title: Inicio
 ---
 
 Yellowcake is an opinionated starter project created by [Thrive Digital](https://thriveweb.com.au/) a [Gold Coast Web Design](https://thriveweb.com.au/) studio. to help you create lightning fast websites with [Gatsby](https://gatsbyjs.org) and [Netlify CMS](https://netlifycms.org).
