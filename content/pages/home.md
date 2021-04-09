@@ -1,6 +1,6 @@
 ---
 template: HomePage
-slug: ''
+slug: 
 subheading: Lorena Grimal
 title: Mentoring y psicología para transformar mentes.
 featuredImage: 'https://ucarecdn.com/efad606c-51d2-4948-a380-f44fe6beebb8/'
@@ -10,7 +10,7 @@ meta:
   title: Inicio
 ---
 
-# ¿Que consigues al transformar tu mente?
+### ¿Que consigues al transformar tu mente?
 
 - Romper creencias que te impiden avanzar
 - Conectar con tu esencia

@@ -28,6 +28,7 @@ export const AboutPageTemplate = ({
       title={title}
       subtitle={subtitle}
       backgroundImage={featuredImage}
+      align="right"
     />
     <section className="section">
       <div className="container">

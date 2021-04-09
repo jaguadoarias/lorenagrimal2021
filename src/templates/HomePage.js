@@ -14,6 +14,7 @@ export const HomePageTemplate = ({ title, subheading, subtitle, featuredImage, b
       subheading={subheading}
       subtitle={subtitle}
       backgroundImage={featuredImage}
+      cta="Quiero una mentoria"
     />
 
     <section className="section">

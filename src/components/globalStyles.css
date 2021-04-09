@@ -206,7 +206,7 @@ blockquote {
 }
 
 .container {
-  max-width: 1111px;
+  max-width: 1200px;
   width: 90%;
   margin: 0 auto;
 }
@@ -224,24 +224,22 @@ blockquote {
 /* Buttons */
 
 .Button {
-  background: var(--primary);
+  background-color: var(--secondary);
   color: white;
-  text-transform: uppercase;
   text-decoration: none;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  font-size: 1.4rem;
-  display: inline-block;
-  padding: 1.25rem 3rem;
+  font-weight: 400;
+  font-size: 2rem;
+  /* display: inline-block; */
+  padding: 1rem 1.5rem;
   border: none;
   transition: all 0.2s ease;
   cursor: pointer;
   border-radius: var(--borderRadius);
+  align-self: flex-start;
+  margin-top: 3rem;
 }
-.Button:hover,
-.Button:focus {
-  opacity: 0.95;
-  outline: none;
+.Button:hover {
+  background-color: var(--secondaryLight);
 }
 .Button[disabled] {
   opacity: 0.4;

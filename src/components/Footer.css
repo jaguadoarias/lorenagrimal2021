@@ -7,12 +7,8 @@
 
 .footer .container {
   display: flex;
-  justify-content: center;
-}
-
-.footer .container + .container {
+  justify-content: space-between;
   align-items: center;
-  flex-direction: column;
 }
 
 .footer nav {
@@ -21,7 +17,10 @@
 
 .footer nav li {
   display: inline-block;
-  margin: 0 1rem;
+  
+}
+.footer nav li:not(:last-child) {
+  margin-right: 2rem;
 }
 
 .footer .Logo {

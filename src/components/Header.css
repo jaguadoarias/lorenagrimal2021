@@ -32,7 +32,7 @@
 }
 
 .NavLink {
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1.5rem 0.4rem;
   display: block;
   font-weight: 500;
   transition: all ease 0.2s;
