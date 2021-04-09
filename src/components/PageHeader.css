@@ -1,15 +1,20 @@
 .PageHeader {
   background-color: var(--primary);
   color: white;
-  padding: 10rem 0;
+  padding: 15vw 0 5vw;
 }
 
 .PageHeader .BackgroundImage {
   opacity: 0.7;
 }
 
+.PageHeader.PageHeader-large .BackgroundImage {
+  opacity: 0.9;
+}
+
 .PageHeader-large {
-  padding: 15rem 0;
+  padding: 15vw 0 10vw;
+  background-color: var(--secondaryLight);
 }
 
 .PageHeader--Title {
@@ -58,11 +63,5 @@
   }
   .PageHeader-large {
     padding: 12.5rem 0;
-  }
-}
-
-@media (min-width: 1024px) {
-  .PageHeader:not(.PageHeader-large) .BackgroundImage {
-    background-position: center -9vw;
   }
 }

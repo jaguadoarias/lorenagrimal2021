@@ -1,6 +1,6 @@
 .Header {
-  background: white;
-  position: sticky;
+  position: absolute;
+  width: 100%;
   top: 0;
   z-index: 2;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.025);
@@ -37,17 +37,17 @@
   font-weight: 500;
   transition: all ease 0.2s;
   line-height: 1.5;
-  color: var(--primary);
+  color: #fff;
   text-decoration: none;
-  background-color: transparent;
+  border: 2px solid transparent;
   border-radius: var(--borderRadius);
 }
 
 .NavLink:hover,
 .NavLink.active,
 .NavLink:focus {
-  color: var(--lightGrey);
-  background-color: var(--secondary);
+  color: var(--primary);
+  border-color: currentColor;
 }
 
 .Nav--Group {

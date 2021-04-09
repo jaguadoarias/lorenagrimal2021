@@ -29,16 +29,18 @@ export const AboutPageTemplate = ({
       subtitle={subtitle}
       backgroundImage={featuredImage}
       align="right"
+      sign
     />
     <section className="section">
       <div className="container">
         <Content source={section1} />
+        <button className="Button Button--centered" aria-label="cta">Reserva tu Sesión de Diagnóstico Gratuita</button>
       </div>
     </section>
 
     <section className="section">
       <div className="container">
-        <h2>Our gallery component</h2>
+        <h2>Publicaciones</h2>
         <Gallery images={gallery} />
       </div>
     </section>

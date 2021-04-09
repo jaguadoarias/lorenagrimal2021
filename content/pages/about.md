@@ -13,8 +13,6 @@ section1: >-
 
 
   Dar el salto a creer en ti, confiar en tus recursos, recolocar tu mente, entrenarla para llegar a tus objetivos, esto es todo lo que yo hago con mis clientes.
-
-
   Escucho frases maravillosas a diario, quizá la más recurrente es “por qué no fui consciente antes de todo el potencial”, y, si tú estás en ese momento, no esperes, la clave es pasar a la acción, y estás a sólo un click de dar el salto.
 
 
@@ -22,9 +20,6 @@ section1: >-
 
 
   No hay miedo, pasa a la acción y reserva ahora tu sesión conmigo, analizaremos juntos tu situación actual.
-
-
-  <>RESERVA TU SESIÓN DE DIAGNÓSTICO GRATUITA<>
 
 
 section2: >-

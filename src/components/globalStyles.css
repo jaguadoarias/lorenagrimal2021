@@ -230,13 +230,14 @@ blockquote {
   font-weight: 400;
   font-size: 2rem;
   /* display: inline-block; */
-  padding: 1rem 1.5rem;
+  padding: 1rem 3rem .8rem;
   border: none;
   transition: all 0.2s ease;
   cursor: pointer;
   border-radius: var(--borderRadius);
   align-self: flex-start;
   margin-top: 3rem;
+  box-shadow: 0 2px 25px 0 rgb(84 131 157 / 20%)
 }
 .Button:hover {
   background-color: var(--secondaryLight);
@@ -255,4 +256,8 @@ blockquote {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.Button--centered {
+  margin: 4rem auto 0;
+  display: block;
 }

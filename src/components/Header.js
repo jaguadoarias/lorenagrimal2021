@@ -41,20 +41,23 @@ export class Navigation extends Component {
     const { active } = this.state,
       { subNav } = this.props,
       NavLink = ({ to, className, children, ...props }) => (
-        <Link
-          to={to}
-          className={`NavLink ${
-            to === this.state.currentPath ? 'active' : ''
-          } ${className}`}
-          onClick={this.handleLinkClick}
-          onKeyDown={this.handleLinkKeyDown}
-          tabIndex={0}
-          aria-label="Navigation"
-          role="button"
-          {...props}
-        >
-          {children}
-        </Link>
+        <li>
+          <Link
+            to={to}
+            className={`NavLink ${
+              to === this.state.currentPath ? 'active' : ''
+            } ${className}`}
+            onClick={this.handleLinkClick}
+            onKeyDown={this.handleLinkKeyDown}
+            tabIndex={0}
+            aria-label="Navigation"
+            role="button"
+            {...props}
+          >
+            {children}
+          </Link>
+        </li>
+        
       )
 
     return (
@@ -68,13 +71,13 @@ export class Navigation extends Component {
             aria-label="Navigation"
             role="button"
           >
-            <Logo />
+            <Logo isPositive />
           </Link>
-          <div className="Nav--Links">
+          <ul className="Nav--Links">
             <NavLink to="/">Inicio</NavLink>
             <NavLink to="/about/">Conóceme</NavLink>
-            <NavLink to="/mentoring/">Mentorias</NavLink>
-            <NavLink to="/default/">Publicaciones</NavLink>
+            <NavLink to="/mentoring/">Mentorías</NavLink>
+            {/* <NavLink to="/default/">Publicaciones</NavLink> */}
             <NavLink to="/contact/">Contacto</NavLink>
             <div
               className={`Nav--Group ${
@@ -112,14 +115,14 @@ export class Navigation extends Component {
                 </div>
               </span>
             </div>
-          </div>
+          </ul>
           <button
             className="Button-blank Nav--MenuButton"
             onClick={this.handleMenuToggle}
             tabIndex={0}
             aria-label="Navigation"
           >
-            {active ? <X /> : <Menu />}
+            {active ? <X /> : <Menu size={40} color="white" />}
           </button>
         </nav>
       </header>
