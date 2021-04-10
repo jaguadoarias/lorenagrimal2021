@@ -11,14 +11,17 @@
   align-items: center;
 }
 
-.footer nav {
-  text-align: center;
+.footer nav ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer nav li {
   display: inline-block;
-  
 }
+
 .footer nav li:not(:last-child) {
   margin-right: 2rem;
 }
@@ -30,6 +33,7 @@
 .footer a {
   text-decoration: none;
   color: var(--primaryLight);
+  display: flex;
 }
 
 .footer a:hover {
@@ -44,5 +48,14 @@
 
 .footer small {
   font-size: 100%;
+}
+
+@media (max-width: 600px) {
+  .footer .container {
+    flex-direction: column;
+  }
+  .social {
+    margin: 4rem 0 2rem;
+  }
 }
 

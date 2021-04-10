@@ -175,12 +175,11 @@ blockquote {
 
 .section {
   width: 100%;
-  padding: 5rem 0;
+  padding: 5vw 0;
   border-bottom: 1px solid #f1f1f1;
 }
 .section--hero {
   background-color: var(--secondaryLight);
-  padding: 8rem 0;
   text-align: center;
   font-family: var(--font-secondary);
   font-size: 3.5rem;
@@ -223,13 +222,18 @@ blockquote {
 @media (max-width: 600px) {
   .section {
     width: 100%;
-    padding: 5rem 0;
   }
   .section.thick {
     padding: 7rem 0;
   }
   .section.thin {
     padding: 1.5rem 0;
+  }
+  .section--hero {
+    font-size: 2.8rem;
+  }
+  .section--hero h3 {
+    max-width: 100%;
   }
 }
 
@@ -294,7 +298,6 @@ blockquote {
 
 /* Lists */
 .List {
-  padding-left: 2rem;
   margin: 2rem 0 4rem;
 }
 .List li {
@@ -304,4 +307,6 @@ blockquote {
 }
 .List li svg {
   margin-right: 2rem;
+  flex-shrink: 0;
+  align-self: flex-start;
 }

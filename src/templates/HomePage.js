@@ -49,12 +49,12 @@ Estrategia, mente y capacitación.</p>
         <h3>CREE EN TI</h3>
         <p>Creer es el pilar del cambio, y en cada sesión vas a descubir:</p>
         <ul class="List">
-          <li><CheckCircle color="#487E86" /> Romper creencias que te impiden avanzar</li>
-          <li><CheckCircle color="#487E86" /> Conectar con tu esencia</li>
-          <li><CheckCircle color="#487E86" /> Definir y alcanzar tus objetivos personales y profesionales</li>
-          <li><CheckCircle color="#487E86" /> Creer en tí</li>
-          <li><CheckCircle color="#487E86" /> Crear lo que visualizas</li>
-          <li><CheckCircle color="#487E86" /> Confíar en la magia del cambio</li>
+          <li><CheckCircle color="#487E86" size="30" /> Romper creencias que te impiden avanzar</li>
+          <li><CheckCircle color="#487E86" size="30" /> Conectar con tu esencia</li>
+          <li><CheckCircle color="#487E86" size="30" /> Definir y alcanzar tus objetivos personales y profesionales</li>
+          <li><CheckCircle color="#487E86" size="30" /> Creer en tí</li>
+          <li><CheckCircle color="#487E86" size="30" /> Crear lo que visualizas</li>
+          <li><CheckCircle color="#487E86" size="30" /> Confíar en la magia del cambio</li>
         </ul>
         <h4 className="PageHeader--Subheading taCenter">Cree, Crea, Confía</h4>
       </div>
