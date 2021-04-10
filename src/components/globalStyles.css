@@ -63,6 +63,9 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
+body.menu-open {
+  overflow: hidden;
+}
 
 a {
   color: var(--primary);

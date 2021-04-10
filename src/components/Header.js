@@ -16,7 +16,16 @@ export class Navigation extends Component {
   componentDidMount = () =>
     this.setState({ currentPath: this.props.location.pathname })
 
-  handleMenuToggle = () => this.setState({ active: !this.state.active })
+  handleMenuToggle = () => {
+    var bodyTag = document.body.classList;
+    this.setState({ active: !this.state.active })
+    if (bodyTag.contains('menu-open')) {
+      bodyTag.remove('menu-open');
+    } else {
+      bodyTag.add('menu-open');
+    }
+    
+  }
 
   // Only close nav if it is open
   handleLinkClick = () => this.state.active && this.handleMenuToggle()
