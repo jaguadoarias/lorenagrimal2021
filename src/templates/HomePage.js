@@ -56,7 +56,7 @@ Estrategia, mente y capacitación.</p>
           <li><CheckCircle color="#487E86" /> Crear lo que visualizas</li>
           <li><CheckCircle color="#487E86" /> Confíar en la magia del cambio</li>
         </ul>
-        <h4>CREE, CREA, CONFÍA</h4>
+        <h4 className="PageHeader--Subheading taCenter">Cree, Crea, Confía</h4>
       </div>
     </section>
   </main>
