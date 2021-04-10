@@ -10,14 +10,10 @@ meta:
   title: Inicio
 ---
 
-### ¿Que consigues al transformar tu mente?
+## Alcanza tus objetivos
 
-- Romper creencias que te impiden avanzar
-- Conectar con tu esencia
-- Definir y alcanzar tus objetivos personales y profesionales
-- Creer en tí
-- Crear lo que visualizas
-- Confíar en la magia del cambio
+  A través de las sesiones individuales, te llevo a ese mundo donde no existen los miedos ni las creencias limitantes para que puedas definir claramente tus objetivos.
+  Estos objetivos pueden ser personales, emocionales, laborales, económicos o una mezcla de todos ellos, pero a través de las mentorías tendrás claro lo que quieres, cómo lo quieres y cual es el camino para conseguirlo.
+  Activa tus recursos internos y externos para que jueguen a tu favor y tus deseos estarán al alcance de tu mano.
 
-CREE, CREA, CONFÍA
 

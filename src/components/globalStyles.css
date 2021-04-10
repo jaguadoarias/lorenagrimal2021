@@ -26,7 +26,7 @@
 }
 
 ::selection {
-  background: rgba(0, 194, 189, 0.6);
+  background: rgba(72, 126, 134, 0.6);
 }
 
 * {
@@ -88,7 +88,6 @@ h4,
 h5,
 h6 {
   margin: 0;
-  margin-bottom: 0.5em;
 }
 
 pre {
@@ -179,6 +178,32 @@ blockquote {
   padding: 5rem 0;
   border-bottom: 1px solid #f1f1f1;
 }
+.section--hero {
+  background-color: var(--secondaryLight);
+  padding: 8rem 0;
+  text-align: center;
+  font-family: var(--font-secondary);
+  font-size: 3.5rem;
+  background-color: #64a2ab;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23d1e2db' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%2364a2ab' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%2362a0a9' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23619ea7' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%235f9ca4' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%235d99a2' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%235c97a0' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%235a959e' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%2358939c' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23579199' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23558f97' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23538d95' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23528b93' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23508891' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%234e868f' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%234d848c' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%234b828a' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%234a8088' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23487e86' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.section--hero h3 {
+  max-width: 70%;
+  margin: 0 auto;
+  color: white;
+  text-shadow: 1px 1px 1px var(--primary);
+}
+.section h2 {
+  font-size: 3rem;
+}
+.section:not(.section--hero) h3 {
+  font-size: 2.4rem;
+}
+.section p + h3 {
+  margin-top: 4rem;
+}
 .section:last-child {
   border: 0;
 }
@@ -191,6 +216,9 @@ blockquote {
 .section.noPadding {
   padding: 0;
 }
+
+
+
 
 @media (max-width: 600px) {
   .section {
@@ -219,6 +247,7 @@ blockquote {
 
 .section p {
   font-size: 2rem;
+  margin-top: 1rem;
 }
 
 /* Buttons */
@@ -260,4 +289,19 @@ blockquote {
 .Button--centered {
   margin: 4rem auto 0;
   display: block;
+}
+
+
+/* Lists */
+.List {
+  padding-left: 2rem;
+  margin: 2rem 0;
+}
+.List li {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+.List li svg {
+  margin-right: 2rem;
 }

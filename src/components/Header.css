@@ -110,6 +110,9 @@
 }
 
 @media (max-width: 1024px) {
+  .Header {
+    /* position: sticky; */
+  }
   .Nav {
     display: flex;
   }
@@ -154,6 +157,7 @@
   .Header .NavLink {
     font-size: 2.5rem;
     font-weight: 300;
+    color: var(--primary);
   }
 
   .Header .NavLink:nth-of-type(2) {

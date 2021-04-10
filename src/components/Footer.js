@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { Instagram, Youtube, Linkedin } from 'react-feather'
+import { Instagram, Youtube, Send } from 'react-feather'
 import Logo from './Logo'
 import './Footer.css'
 
@@ -24,17 +24,17 @@ export default () => (
           <ul className="social">
             <li>
               <a href="https://www.instagram.com/">
-                <Instagram />
+                <Instagram size={30} />
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/">
-                <Youtube />
+                <Youtube size={30}/>
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/">
-                <Linkedin />
+                <Send size={30} />
               </a>
             </li>
           </ul>

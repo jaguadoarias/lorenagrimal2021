@@ -36,6 +36,12 @@
   text-decoration: underline;
 }
 
+.footer a:hover svg:not(.Logo) {
+  stroke: var(--secondary);
+  transform: scale(0.9);
+  transition: all linear .1s;
+}
+
 .footer small {
   font-size: 100%;
 }
