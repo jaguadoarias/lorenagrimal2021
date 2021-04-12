@@ -84,8 +84,8 @@ export class Navigation extends Component {
           </Link>
           <ul className="Nav--Links">
             <NavLink to="/">Inicio</NavLink>
-            <NavLink to="/about/">Conóceme</NavLink>
             <NavLink to="/mentoring/">Mentorías</NavLink>
+            <NavLink to="/about/">Conóceme</NavLink>
             {/* <NavLink to="/default/">Publicaciones</NavLink> */}
             <NavLink to="/contact/">Contacto</NavLink>
             <div

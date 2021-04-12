@@ -24,17 +24,17 @@ export default () => (
           <ul className="social">
             <li>
               <a href="https://www.instagram.com/">
-                <Instagram size={30} />
+                <Instagram />
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/">
-                <Youtube size={30}/>
+                <Youtube />
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/">
-                <Send size={30} />
+                <Send />
               </a>
             </li>
           </ul>

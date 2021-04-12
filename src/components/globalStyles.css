@@ -186,10 +186,18 @@ blockquote {
   text-align: center;
   font-family: var(--font-secondary);
   font-size: 3.5rem;
-  background-color: #64a2ab;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23d1e2db' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%2364a2ab' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%2362a0a9' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23619ea7' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%235f9ca4' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%235d99a2' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%235c97a0' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%235a959e' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%2358939c' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23579199' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23558f97' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23538d95' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23528b93' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23508891' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%234e868f' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%234d848c' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%234b828a' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%234a8088' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23487e86' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
-  background-attachment: fixed;
+
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23487e86'/%3E%3Cstop offset='1' stop-color='%23dbb246'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='24' height='24' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='12' cy='12' r='12'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.1'/%3E%3C/svg%3E");
+  
   background-size: cover;
+}
+.section--hero2 {
+  background-position: center;
+  background-attachment: fixed;
+}
+.section--hero2 ~ .section--hero2 {
+  background-position: center;
 }
 .section--hero h3 {
   max-width: 70%;
@@ -199,6 +207,7 @@ blockquote {
 }
 .section h2 {
   font-size: 3rem;
+  position: relative;
 }
 .section:not(.section--hero) h3 {
   font-size: 2.4rem;
@@ -307,9 +316,10 @@ blockquote {
   display: flex;
   align-items: center;
   margin: 1rem 0;
+  line-height: 1.2;
 }
 .List li svg {
   margin-right: 2rem;
   flex-shrink: 0;
-  align-self: flex-start;
+  align-self: baseline;
 }
