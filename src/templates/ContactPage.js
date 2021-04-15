@@ -15,6 +15,7 @@ export const ContactPageTemplate = ({
   subtitle,
   featuredImage,
   address,
+  instagram,
   phone,
   email,
 }) => (
@@ -29,23 +30,10 @@ export const ContactPageTemplate = ({
         <div>
           <Content source={body} />
           <div className="Contact--Details">
-            {address && (
-              <a
-                className="Contact--Details--Item"
-                href={`https://www.google.com.au/maps/search/${encodeURI(
-                  address
-                )}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <MapPin /> {address}
-              </a>
-            )}
             
-            <a className="Contact--Details--Item" href={`tel:${phone}`}>
-              <Instagram /> lorena_grimal_com
+            <a className="Contact--Details--Item" target="_blank" rel="noopener noreferrer" href={instagram}>
+              <Instagram /> @lorenagrimal_psicologa
             </a>
-          
           
             <a className="Contact--Details--Item" href={`tel:${phone}`}>
               <Send /> Entrenamiento emocional
@@ -90,6 +78,7 @@ export const pageQuery = graphql`
         featuredImage
         address
         phone
+        instagram
         email
         locations {
           mapLink

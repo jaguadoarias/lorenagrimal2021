@@ -48,7 +48,7 @@
   box-sizing: border-box;
   display: block;
   margin: 0;
-  border: 1px solid #bababa;
+  border: 2px solid #bababa;
   padding: 1.5rem 2rem;
   border-radius: var(--borderRadius);
   line-height: 1.25em;
@@ -72,8 +72,8 @@
 .Form--InputText:invalid:not(:empty) + span,
 .Form--InputText:active + span,
 .Form--InputText:focus + span {
-  top: 0;
-  left: 0.5rem;
+  top: 0.5rem;
+  left: 2rem;
   font-size: 1.2rem;
 }
 
@@ -105,12 +105,7 @@
 
 .Form--Input:focus {
   outline: none;
-  border-color: black;
-}
-
-.Form--Input:focus {
-  outline: none;
-  border-color: black;
+  border-color: var(--primaryLight);
 }
 
 .Form--Input[disabled],

@@ -4,7 +4,6 @@ import { CheckCircle } from 'react-feather'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
-import Image from '../components/Image'
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subheading, subtitle, featuredImage, body }) => (

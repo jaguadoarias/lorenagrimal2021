@@ -7,7 +7,6 @@ import './Footer.css'
 export default () => (
   <>
     <footer className="footer">
-      
       <div className="container">
         <nav>
           <ul>
@@ -18,7 +17,6 @@ export default () => (
             <li><Link to="/contact/" aria-label="Navigation" role="button">Contacto</Link></li>
           </ul>
         </nav>
-
         
        <nav>
           <ul className="social">
