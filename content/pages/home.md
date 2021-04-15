@@ -14,6 +14,7 @@ meta:
 
   A través de las sesiones individuales, te llevo a ese mundo donde no existen los miedos ni las creencias limitantes para que puedas definir claramente tus objetivos.
   Estos objetivos pueden ser personales, emocionales, laborales, económicos o una mezcla de todos ellos, pero a través de las mentorías tendrás claro lo que quieres, cómo lo quieres y cual es el camino para conseguirlo.
+  
   Activa tus recursos internos y externos para que jueguen a tu favor y tus deseos estarán al alcance de tu mano.
 
 

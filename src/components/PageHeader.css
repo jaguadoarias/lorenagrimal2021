@@ -9,12 +9,12 @@
 }
 
 .PageHeader.PageHeader-large .BackgroundImage {
-  opacity: 0.9;
+  opacity: 0.7;
 }
 
 .PageHeader-large {
   padding: 15vw 0 5vw;
-  background-color: var(--secondaryLight);
+  background-color: var(--primary);
 }
 
 .PageHeader--Title {

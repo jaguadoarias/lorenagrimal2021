@@ -2,7 +2,7 @@
   padding: 3rem 0;
   background: var(--primary);
   font-size: 1.6rem;
-  color: var(--primaryLight);
+  color: white;
 }
 
 .footer .container {
@@ -32,16 +32,17 @@
 
 .footer a {
   text-decoration: none;
-  color: var(--primaryLight);
+  color: white;
   display: flex;
 }
 
 .footer a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: var(--primaryLight); 
 }
 
 .footer a:hover svg:not(.Logo) {
-  stroke: var(--secondary);
+  stroke: var(--primaryLight);
   transform: scale(0.9);
   transition: all linear .1s;
 }
