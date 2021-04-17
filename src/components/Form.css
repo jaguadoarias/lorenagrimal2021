@@ -204,7 +204,7 @@
 .Form--CheckboxInput + span::after {
   transform: scale(0.5);
   transition: 0.3s ease all;
-  content: '\2713';
+  content: '\2714';
   position: absolute;
   display: block;
   top: 3px;

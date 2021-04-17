@@ -3,7 +3,7 @@
   --primaryLight: #2a9d8f;
   --secondary: #E2B33C;
   --secondaryLight: #e9c46a;
-  --lightGrey: whitesmoke;
+  --lightGrey: #d1e2db;
   --midGrey: #cacaca;
   --darkGrey: #272727;
   --danger: #C74817;
@@ -178,16 +178,33 @@ blockquote {
 
 .section {
   width: 100%;
-  padding: 5vw 0;
-  border-bottom: 1px solid #f1f1f1;
+  padding: 3vw 0;
 }
+.section--secondary {
+  color: #fff;
+  background-color: var(--primary);
+  position: relative;
+ } 
+
+ .section--separator {
+  padding: 10rem 0;
+ }
+
+ .section--secondary h3{
+   font-size: 4.2rem;
+   text-align: center;
+   color: var(--secondaryLight);
+   max-width: 80%;
+   font-family: var(--font-secondary);
+   margin: 0 auto;
+ }
+
 .section--hero {
-  background-color: var(--secondaryLight);
   text-align: center;
   font-family: var(--font-secondary);
   font-size: 3.5rem;
-  background-color: #ffffff;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23487e86'/%3E%3Cstop offset='1' stop-color='%23dbb246'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='24' height='24' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23ffffff' cx='12' cy='12' r='12'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.1'/%3E%3C/svg%3E");
+  background-color: var(--primary);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.09'%3E%3Cpath fill='%2329565f' d='M486 705.8c-109.3-21.8-223.4-32.2-335.3-19.4C99.5 692.1 49 703 0 719.8V800h843.8c-115.9-33.2-230.8-68.1-347.6-92.2C492.8 707.1 489.4 706.5 486 705.8z'/%3E%3Cpath fill='%232b676a' d='M1600 0H0v719.8c49-16.8 99.5-27.8 150.7-33.5c111.9-12.7 226-2.4 335.3 19.4c3.4 0.7 6.8 1.4 10.2 2c116.8 24 231.7 59 347.6 92.2H1600V0z'/%3E%3Cpath fill='%232c7976' d='M478.4 581c3.2 0.8 6.4 1.7 9.5 2.5c196.2 52.5 388.7 133.5 593.5 176.6c174.2 36.6 349.5 29.2 518.6-10.2V0H0v574.9c52.3-17.6 106.5-27.7 161.1-30.9C268.4 537.4 375.7 554.2 478.4 581z'/%3E%3Cpath fill='%232c8b83' d='M0 0v429.4c55.6-18.4 113.5-27.3 171.4-27.7c102.8-0.8 203.2 22.7 299.3 54.5c3 1 5.9 2 8.9 3c183.6 62 365.7 146.1 562.4 192.1c186.7 43.7 376.3 34.4 557.9-12.6V0H0z'/%3E%3Cpath fill='%232a9d8f' d='M181.8 259.4c98.2 6 191.9 35.2 281.3 72.1c2.8 1.1 5.5 2.3 8.3 3.4c171 71.6 342.7 158.5 531.3 207.7c198.8 51.8 403.4 40.8 597.3-14.8V0H0v283.2C59 263.6 120.6 255.7 181.8 259.4z'/%3E%3Cpath fill='%2356ab9e' d='M1600 0H0v136.3c62.3-20.9 127.7-27.5 192.2-19.2c93.6 12.1 180.5 47.7 263.3 89.6c2.6 1.3 5.1 2.6 7.7 3.9c158.4 81.1 319.7 170.9 500.3 223.2c210.5 61 430.8 49 636.6-16.6V0z'/%3E%3Cpath fill='%2378b9ad' d='M454.9 86.3C600.7 177 751.6 269.3 924.1 325c208.6 67.4 431.3 60.8 637.9-5.3c12.8-4.1 25.4-8.4 38.1-12.9V0H288.1c56 21.3 108.7 50.6 159.7 82C450.2 83.4 452.5 84.9 454.9 86.3z'/%3E%3Cpath fill='%2396c6bc' d='M1600 0H498c118.1 85.8 243.5 164.5 386.8 216.2c191.8 69.2 400 74.7 595 21.1c40.8-11.2 81.1-25.2 120.3-41.7V0z'/%3E%3Cpath fill='%23b4d4cb' d='M1397.5 154.8c47.2-10.6 93.6-25.3 138.6-43.8c21.7-8.9 43-18.8 63.9-29.5V0H643.4c62.9 41.7 129.7 78.2 202.1 107.4C1020.4 178.1 1214.2 196.1 1397.5 154.8z'/%3E%3Cpath fill='%23d1e2db' d='M1315.3 72.4c75.3-12.6 148.9-37.1 216.8-72.4h-723C966.8 71 1144.7 101 1315.3 72.4z'/%3E%3C/g%3E%3C/svg%3E");
   background-size: cover;
 }
 .section--hero2 {
@@ -207,9 +224,7 @@ blockquote {
   font-size: 3rem;
   position: relative;
 }
-.section:not(.section--hero) h3 {
-  font-size: 2.4rem;
-}
+
 .section p + h3 {
   margin-top: 4rem;
 }
@@ -224,27 +239,6 @@ blockquote {
 }
 .section.noPadding {
   padding: 0;
-}
-
-
-
-
-@media (max-width: 600px) {
-  .section {
-    width: 100%;
-  }
-  .section.thick {
-    padding: 7rem 0;
-  }
-  .section.thin {
-    padding: 1.5rem 0;
-  }
-  .section--hero {
-    font-size: 2.8rem;
-  }
-  .section--hero h3 {
-    max-width: 100%;
-  }
 }
 
 .container {
@@ -335,4 +329,83 @@ figure img {
   margin-right: 2rem;
   flex-shrink: 0;
   align-self: baseline;
+}
+
+
+
+.Methods {
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.Methods li {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5vw;
+  text-align: center;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%232DA899' d='M53.3,-72.8C68.4,-62.4,79.5,-45.9,85,-27.9C90.4,-9.8,90.3,9.7,83.1,25.5C75.9,41.2,61.6,53.2,46.6,64.8C31.5,76.5,15.8,87.8,-1.6,90C-19,92.2,-37.9,85.2,-51.5,73.1C-65,61,-73.1,43.7,-76.9,26.3C-80.7,9,-80.1,-8.4,-75.3,-24.8C-70.5,-41.2,-61.4,-56.6,-48.1,-67.5C-34.8,-78.4,-17.4,-84.9,0.9,-86.1C19.1,-87.3,38.2,-83.1,53.3,-72.8Z' transform='translate(100 100)' /%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 2rem;
+}
+
+.Methods li h4 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.custom-shape-divider-top-1618653597, 
+.custom-shape-divider-bottom-1618653720 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.custom-shape-divider-bottom-1618653720 {
+  transform: rotate(180deg);
+  top: initial;
+  bottom: 0;
+}
+
+.custom-shape-divider-top-1618653597 svg,
+.custom-shape-divider-bottom-1618653720 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 59px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1618653597 .shape-fill,
+.custom-shape-divider-bottom-1618653720 .shape-fill {
+  fill: #FFFFFF;
+}
+
+@media (max-width: 600px) {
+  .section {
+    width: 100%;
+  }
+  .section.thick {
+    padding: 7rem 0;
+  }
+  .section.thin {
+    padding: 1.5rem 0;
+  }
+  .section--hero {
+    font-size: 2.8rem;
+  }
+  .section--hero h3 {
+    max-width: 100%;
+  }
+  .Button {
+    width: 100%;
+  }
 }

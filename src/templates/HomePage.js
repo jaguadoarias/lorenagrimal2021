@@ -23,9 +23,9 @@ export const HomePageTemplate = ({ title, subheading, subtitle, featuredImage, b
       </div>
     </section>
 
-    <section className="section section--hero">
+    <section className="section section--secondary">   
       <div className="container">
-        <h3>Vamos a transformar tus deseos en objetivos y a transformar todo tu potencial en tu estrategia de vida</h3>
+        <h3>Vamos a transformar tus deseos en objetivos y a convertir todo tu potencial en tu estrategia de vida.</h3>
       </div>
     </section>
 
@@ -39,56 +39,54 @@ export const HomePageTemplate = ({ title, subheading, subtitle, featuredImage, b
           />
         </figure>
         <div>
-          <h3>Conecta con tu esencia y estarás acariciando el éxito.</h3>
+          <h2>Conecta con tu esencia y estarás acariciando el éxito.</h2>
           <p>Ahí está la clave, en descubrir cómo tu esencia te va a guiar por el camino del bienestar y del éxito.
-  El camino del éxito está en conectar, en analizar qué hay dentro de tí y cómo ponerlo a tu disposición.
-  <br /><br />El aprendizaje más potente se genera desde los conocimientos que ya poseemos, por eso mi punto de partida siempre eres tú, qué tienes, qué conoces, qué posees, quién eres y qué sabes hacer. 
-  Esta es la clave de la rapidez y la efectividad de las mentorías individuales.</p>
+          La estrategia más potente está centrada en conectar y en analizar qué hay dentro de tí y cómo ponerlo a tu disposición.
+          El aprendizaje más potente se genera desde los conocimientos que ya poseemos, por eso mi punto de partida siempre eres tú, qué tienes, qué conoces, qué posees, quién eres y qué sabes hacer. 
+          <br/><br/><strong>Esta es la clave de la rapidez y la efectividad de las mentorías individuales.</strong></p>
         </div>
       </div>
     </section>
 
-    <section className="section">
+    <section className="section section--secondary section--separator">   
+      <div class="custom-shape-divider-top-1618653597">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+          </svg>
+      </div>
       <div className="container">
-      <h3>Rompe tus creencias limitantes</h3>
+        <h2>Rompe tus creencias limitantes para construir creencias empoderantes.</h2>
         <p>Romper, modificar, eliminar… en mi lenguaje caben todos esos verbos para lograr una transformación profunda, duradera y rápida.
 Si la base es tu expertise, la ruptura de creencias es el éxito que te va a mover desde donde estás ahora, hasta donde quieres estar.
 La psicología estratégica conecta de manera muy eficaz con esas creencias y te las muestra para que seas tú quien las transforme. 
 Estrategia, mente y capacitación.</p>
       </div>
-    </section>
 
-    <section className="section section--hero section--hero2">
-      <div className="container">
-        <h3>Desaprender creencias limitantes, construir creencias empoderantes.</h3>
-      </div>
-    </section>
-
-    <section className="section">
-      <div className="container">
-        <h3>CREE CREA CONFÍA</h3>
-        <ul class="List">
-          <li><CheckCircle color="#487E86" size="20" /> Creer es el pilar del cambio. Comienza el camino creyendo en tí, identificando en qué punto te encuentras y focalizándote en la conciencia de tu poder.</li>
-          <li><CheckCircle color="#487E86" size="20" /> Crear es la potencia de la transformación. Continúa creando tu destino y el camino que te llevará a alcanzarlo.</li>
-          <li><CheckCircle color="#487E86" size="20" /> Confiar es la garantía del éxito. Confía en tí, en tus recursos y en que has escogido tu mejor estrategia.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section className="section section--hero section--hero2">
       <div className="container">
         <h3>Las tres Cs del éxito emocional, biológico y social.</h3>
+        <ul class="Methods">
+          <li><h4>CREER</h4> Es el pilar del cambio. Comienza el camino creyendo en tí, identificando en qué punto te encuentras y focalizándote en la conciencia de tu poder.</li>
+          <li><h4>CREAR</h4> Es la potencia de la transformación. Continúa creando tu destino y el camino que te llevará a alcanzarlo.</li>
+          <li><h4>CONFIAR</h4> Es la garantía del éxito. Confía en tí, en tus recursos y en que has escogido tu mejor estrategia.</li>
+        </ul>
+      </div>
+      <div class="custom-shape-divider-bottom-1618653720">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+          </svg>
       </div>
     </section>
+
     <section className="section">
       <div className="container cols">
         <div>
-          <h3>UN PASO MÁS Y...</h3>
+          <h2>METODOLOGÍA ESTRATÉGICA INDIVIDUALIZADA</h2>
           <ul class="List">
             <li><CheckCircle color="#487E86" size="20" /> Trabajaremos codo a codo, desde el descubrimiento hasta el éxito.</li>
             <li><CheckCircle color="#487E86" size="20" /> Con una metodología basada en la eficacia y la evidencia.</li>
             <li><CheckCircle color="#487E86" size="20" /> Transformación vital para sentirte libre y en equilibrio.</li>
-            <li><CheckCircle color="#487E86" size="20" /> Alineando tu parte biológica, psicológica, social y laboral</li>
+            <li><CheckCircle color="#487E86" size="20" /> Alineando tu parte biológica, psicológica, social y laboral.</li>
+            <li><CheckCircle color="#487E86" size="20" /> Te ofrezco mi apoyo constante en tu día a día durante la duración del proceso.</li>
           </ul>
           <button className="Button">Solicita tu Sesión Gratuita</button>
         </div>
