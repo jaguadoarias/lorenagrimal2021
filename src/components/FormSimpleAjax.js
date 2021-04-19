@@ -7,10 +7,10 @@ import './Form.css'
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'Simple Form Ajax',
-    subject: '', // optional subject of the notification email
+    name: 'Contact Form',
+    subject: 'Contacto Web', // optional subject of the notification email
     action: '',
-    successMessage: 'Thanks for your enquiry, we will get back to you soon',
+    successMessage: 'Gracias por ponerte en conracto conmigo',
     errorMessage:
       'There is a problem, your message has not been sent, please try contacting us via email'
   }
@@ -66,55 +66,23 @@ class Form extends React.Component {
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
-          data-netlify=""
           netlify-recaptcha=""
+          data-netlify="true"
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
           )}
-          <div className="Form--Group">
+          
             <label className="Form--Label">
               <input
                 className="Form--Input Form--InputText"
                 type="text"
-                placeholder="Firstname"
+                placeholder="Nombre"
                 name="firstname"
                 required
               />
-              <span>Firstname</span>
+              <span>Nombre</span>
             </label>
-            <label className="Form--Label">
-              <input
-                className="Form--Input Form--InputText"
-                type="text"
-                placeholder="Lastname"
-                name="lastname"
-                required
-              />
-              <span>Lastname</span>
-            </label>
-          </div>
-          <fieldset>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="male"
-                defaultChecked
-              />
-              <span>Male</span>
-            </label>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="female"
-              />
-              <span>Female</span>
-            </label>
-          </fieldset>
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
@@ -123,9 +91,9 @@ class Form extends React.Component {
               name="emailAddress"
               required
             />
-            <span>Email address</span>
+            <span>Email</span>
           </label>
-          <label className="Form--Label has-arrow">
+          {/* <label className="Form--Label has-arrow">
             <select
               className="Form--Input Form--Select"
               name="type"
@@ -139,24 +107,25 @@ class Form extends React.Component {
               <option>Found a bug</option>
               <option>Want to say hello</option>
             </select>
-          </label>
+          </label> */}
           <label className="Form--Label">
             <textarea
               className="Form--Input Form--Textarea Form--InputText"
-              placeholder="Message"
+              placeholder="Mensaje"
               name="message"
               rows="10"
               required
             />
-            <span>Message</span>
+            <span>Mensaje</span>
           </label>
           <label className="Form--Label Form-Checkbox">
             <input
               className="Form--Input Form--Textarea Form--CheckboxInput"
               name="newsletter"
               type="checkbox"
+              required
             />
-            <span>Get news updates</span>
+            <span>He leído y acepto la política de privacidad</span>
           </label>
           <div
             className="g-recaptcha"
@@ -164,12 +133,11 @@ class Form extends React.Component {
           />
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
-          <input
+          <button
             className="Button Form--SubmitButton"
             type="submit"
-            value="Enquire"
             disabled={this.state.disabled}
-          />
+          >Enviar</button>
         </form>
       </Fragment>
     )

@@ -84,10 +84,10 @@ export class Navigation extends Component {
           </Link>
           <ul className="Nav--Links">
             <NavLink to="/">Inicio</NavLink>
-            <NavLink to="/mentoring/">Servicios</NavLink>
+            <NavLink to="/mentoring/">Sesiones</NavLink>
             <NavLink to="/about/">Conóceme</NavLink>
             {/* <NavLink to="/default/">Publicaciones</NavLink> */}
-            <NavLink to="/contact/">Contacto</NavLink>
+            <NavLink to="/contact/">Reserva tu cita</NavLink>
             <NavLink to="/blog/">Blog</NavLink>
             {/* <div
               className={`Nav--Group ${

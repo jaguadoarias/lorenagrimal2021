@@ -3,7 +3,6 @@ import { Instagram, Send, Mail } from 'react-feather'
 import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
-import FormSimpleAjax from '../components/FormSimpleAjax'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import CookieConsent from 'react-cookie-consent'
@@ -35,23 +34,19 @@ export const ContactPageTemplate = ({
           <div className="Contact--Details">
             
             <a className="Contact--Details--Item" target="_blank" rel="noopener noreferrer" href={instagram}>
-              <Instagram /> @lorenagrimal_psicologa
+              <Instagram /> lorenagrimal_psicologa
             </a>
           
-            <a className="Contact--Details--Item" href={`tel:${phone}`}>
-              <Send /> Entrenamiento emocional
+            <a className="Contact--Details--Item" href="https://t.me/lorenagrimal" target="_blank" rel="noopener noreferrer">
+              <Send /> @lorenagrimal
             </a>
             
             {email && (
-              <a className="Contact--Details--Item" href={`mailto:${email}`}>
+              <a className="Contact--Details--Item" target="_blank" rel="noopener noreferrer" href={`mailto:${email}`}>
                 <Mail /> lorena.grimal@gmail.com
               </a>
             )}
           </div>
-        </div>
-
-        <div>
-          <FormSimpleAjax name="Simple Form Ajax" />
         </div>
         <InlineWidget url="https://calendly.com/lorenagrimal" />
       </div>
