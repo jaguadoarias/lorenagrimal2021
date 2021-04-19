@@ -8,6 +8,7 @@ import Accordion from '../components/Accordion'
 import BackgroundVideo from '../components/BackgroundVideo'
 import Gallery from '../components/Gallery'
 import Popup from '../components/Popup'
+import CookieConsent from 'react-cookie-consent'
 
 // Export Template for use in CMS preview
 export const AboutPageTemplate = ({
@@ -70,6 +71,7 @@ export const AboutPageTemplate = ({
         </Popup>
       </div>
     </section>
+    <CookieConsent buttonText="Entendido" cookieName="lorenaGrimal" buttonStyle={{ backgroundColor: "var(--primaryLight)", fontSize: "14px", color: "white", borderRadius: '30px' }}>¡Hola! Este sitio web usa cookies propias y de terceros para mejorar tu navegación.</CookieConsent>
   </main>
 )
 

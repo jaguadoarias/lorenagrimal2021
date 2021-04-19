@@ -4,6 +4,11 @@ import { CheckCircle } from 'react-feather'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import CookieConsent from 'react-cookie-consent'
+
+const CookiesButton = {
+  borderRadius: 'var(--borderRadius)',
+}
 
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subheading, subtitle, featuredImage, body }) => (
@@ -99,6 +104,8 @@ Estrategia, mente y capacitación.</p>
         </figure>
       </div>
     </section>
+
+    <CookieConsent buttonText="Entendido" cookieName="lorenaGrimal" buttonStyle={{ backgroundColor: "var(--primaryLight)", fontSize: "14px", color: "white", borderRadius: '30px' }}>¡Hola! Este sitio web usa cookies propias y de terceros para mejorar tu navegación.</CookieConsent>
     
   </main>
 )

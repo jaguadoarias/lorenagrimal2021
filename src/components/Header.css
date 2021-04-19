@@ -46,7 +46,7 @@
 .NavLink:hover,
 .NavLink.active,
 .NavLink:focus {
-  color: var(--primary);
+  color: var(--secondaryLight);
   border-color: currentColor;
 }
 

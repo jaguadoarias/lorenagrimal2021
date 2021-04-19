@@ -389,6 +389,10 @@ figure img {
   fill: #FFFFFF;
 }
 
+.CookieConsent {
+  align-items: center;
+}
+
 @media (max-width: 600px) {
   .section {
     width: 100%;

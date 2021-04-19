@@ -5,6 +5,7 @@ import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import SVGIcon from '../components/SVGIcon'
+import CookieConsent from 'react-cookie-consent'
 
 // Export Template for use in CMS preview
 export const MentoringPageTemplate = ({
@@ -35,6 +36,7 @@ const MentoringPage = ({ data: { page } }) => (
     title={page.frontmatter.title || false}
   >
     <MentoringPageTemplate {...page.frontmatter} body={page.html} />
+    <CookieConsent buttonText="Entendido" cookieName="lorenaGrimal" buttonStyle={{ backgroundColor: "var(--primaryLight)", fontSize: "14px", color: "white", borderRadius: '30px' }}>¡Hola! Este sitio web usa cookies propias y de terceros para mejorar tu navegación.</CookieConsent>
   </Layout>
 )
 export default MentoringPage
