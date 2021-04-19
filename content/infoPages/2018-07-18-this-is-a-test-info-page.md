@@ -1,5 +1,5 @@
 ---
-template: MentoringPage
+template: SesionesPage
 slug: test slug
 title: This is a test info page
 featuredImage: >-

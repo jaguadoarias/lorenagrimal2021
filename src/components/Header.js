@@ -84,10 +84,10 @@ export class Navigation extends Component {
           </Link>
           <ul className="Nav--Links">
             <NavLink to="/">Inicio</NavLink>
-            <NavLink to="/mentoring/">Sesiones</NavLink>
+            <NavLink to="/sesiones/">Sesiones</NavLink>
+            <NavLink to="/contact/">Reserva tu cita</NavLink>
             <NavLink to="/about/">Conóceme</NavLink>
             {/* <NavLink to="/default/">Publicaciones</NavLink> */}
-            <NavLink to="/contact/">Reserva tu cita</NavLink>
             <NavLink to="/blog/">Blog</NavLink>
             {/* <div
               className={`Nav--Group ${
@@ -132,7 +132,7 @@ export class Navigation extends Component {
             tabIndex={0}
             aria-label="Navigation"
           >
-            {active ? <X /> : <Menu size={40} color="white" />}
+            {active ? <X size={40} color="white" /> : <Menu size={40} color="white" />}
           </button>
         </nav>
       </header>

@@ -8,13 +8,13 @@ import SVGIcon from '../components/SVGIcon'
 import CookieConsent from 'react-cookie-consent'
 
 // Export Template for use in CMS preview
-export const MentoringPageTemplate = ({
+export const SesionesPageTemplate = ({
   title,
   subtitle,
   featuredImage,
   body
 }) => (
-  <main className="MentoringPage">
+  <main className="SesionesPage">
     <PageHeader
       title={title}
       subtitle={subtitle}
@@ -30,19 +30,19 @@ export const MentoringPageTemplate = ({
   </main>
 )
 
-const MentoringPage = ({ data: { page } }) => (
+const SesionesPage = ({ data: { page } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
-    <MentoringPageTemplate {...page.frontmatter} body={page.html} />
+    <SesionesPageTemplate {...page.frontmatter} body={page.html} />
     <CookieConsent buttonText="Entendido" cookieName="lorenaGrimal" buttonStyle={{ backgroundColor: "var(--primaryLight)", fontSize: "14px", color: "white", borderRadius: '30px' }}>¡Hola! Este sitio web usa cookies propias y de terceros para mejorar tu navegación.</CookieConsent>
   </Layout>
 )
-export default MentoringPage
+export default SesionesPage
 
 export const pageQuery = graphql`
-  query MentoringPage($id: String!) {
+  query SesionesPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       html

@@ -11,10 +11,9 @@ export default () => (
         <nav>
           <ul>
             <li><Link to="/">Inicio</Link></li>
-            <li><Link to="/mentoring/" aria-label="Navigation" role="button">Servicios</Link></li>
-            <li><Link to="/about/" aria-label="Navigation" role="button">Conóceme</Link></li>
+            <li><Link to="/sesiones/" aria-label="Navigation" role="button">Sesiones</Link></li>
             <li><Link to="/contact/" aria-label="Navigation" role="button">Reserva tu cita</Link></li>
-            <li><Link to="/contact/" aria-label="Navigation" role="button">Contacto</Link></li>
+            <li><Link to="/about/" aria-label="Navigation" role="button">Conóceme</Link></li>
             <li><Link to="/contact/" aria-label="Navigation" role="button">Privacidad</Link></li>
             <li><Link to="/contact/" aria-label="Navigation" role="button">Cookies</Link></li>
           </ul>

@@ -5,7 +5,7 @@ import './cms-utils'
 import { HomePageTemplate } from '../templates/HomePage'
 import { AboutPageTemplate } from '../templates/AboutPage'
 import { ContactPageTemplate } from '../templates/ContactPage'
-import { MentoringPageTemplate } from '../templates/MentoringPage'
+import { SesionesPageTemplate } from '../templates/SesionesPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
 import uploadcare from 'netlify-cms-media-library-uploadcare'
@@ -33,7 +33,7 @@ CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
   <ContactPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('infoPages', ({ entry }) => (
-  <MentoringPageTemplate {...entry.toJS().data} />
+  <SesionesPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
   <BlogIndexTemplate {...entry.toJS().data} />
