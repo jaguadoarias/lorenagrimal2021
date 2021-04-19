@@ -6,10 +6,6 @@ import Content from '../components/Content'
 import Layout from '../components/Layout'
 import CookieConsent from 'react-cookie-consent'
 
-const CookiesButton = {
-  borderRadius: 'var(--borderRadius)',
-}
-
 // Export Template for use in CMS preview
 export const HomePageTemplate = ({ title, subheading, subtitle, featuredImage, body }) => (
   <main className="Home">
@@ -70,9 +66,9 @@ Estrategia, mente y capacitación.</p>
       <div className="container">
         <h3>Las tres Cs del éxito emocional, biológico y social.</h3>
         <ul class="Methods">
-          <li><h4>CREER</h4> Es el pilar del cambio. Comienza el camino creyendo en tí, identificando en qué punto te encuentras y focalizándote en la conciencia de tu poder.</li>
-          <li><h4>CREAR</h4> Es la potencia de la transformación. Continúa creando tu destino y el camino que te llevará a alcanzarlo.</li>
-          <li><h4>CONFIAR</h4> Es la garantía del éxito. Confía en tí, en tus recursos y en que has escogido tu mejor estrategia.</li>
+          <li><h4>Creer</h4> Es el pilar del cambio. Comienza el camino creyendo en tí, identificando en qué punto te encuentras y focalizándote en la conciencia de tu poder.</li>
+          <li><h4>Crear</h4> Es la potencia de la transformación. Continúa creando tu destino y el camino que te llevará a alcanzarlo.</li>
+          <li><h4>Confiar</h4> Es la garantía del éxito. Confía en tí, en tus recursos y en que has escogido tu mejor estrategia.</li>
         </ul>
       </div>
       <div class="custom-shape-divider-bottom-1618653720">
@@ -85,7 +81,7 @@ Estrategia, mente y capacitación.</p>
     <section className="section">
       <div className="container cols">
         <div>
-          <h2>METODOLOGÍA ESTRATÉGICA INDIVIDUALIZADA</h2>
+          <h2>Metodología Estratégica Individualizada</h2>
           <ul class="List">
             <li><CheckCircle color="#487E86" size="20" /> Trabajaremos codo a codo, desde el descubrimiento hasta el éxito.</li>
             <li><CheckCircle color="#487E86" size="20" /> Con una metodología basada en la eficacia y la evidencia.</li>

@@ -3,7 +3,7 @@ template: ContactPage
 slug: contact
 title: Contáctame
 featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
-subtitle: This is the contact page subtitle.
+subtitle: ¿Cómo puedo ayudarte?
 address: '404 James St, Burleigh Heads QLD 4220'
 phone: 0987 123 456
 instagram: https://www.instagram.com/lorenagrimal_psicologa/
