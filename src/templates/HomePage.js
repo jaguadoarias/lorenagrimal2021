@@ -89,7 +89,7 @@ Estrategia, mente y capacitación.</p>
             <li><CheckCircle color="#487E86" size="20" /> Alineando tu parte biológica, psicológica, social y laboral.</li>
             <li><CheckCircle color="#487E86" size="20" /> Te ofrezco mi apoyo constante en tu día a día durante la duración del proceso.</li>
           </ul>
-          <button className="Button">Solicita tu Sesión Gratuita</button>
+          <button className="Button">Reserva tu Sesión de Diagnóstico Gratuita</button>
         </div>
         <figure>
           <img

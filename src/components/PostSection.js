@@ -9,7 +9,7 @@ class PostSection extends React.Component {
     title: '',
     limit: 12,
     showLoadMore: true,
-    loadMoreTitle: 'Load More',
+    loadMoreTitle: 'Ver más',
     perPageLimit: 12
   }
 
@@ -39,7 +39,7 @@ class PostSection extends React.Component {
         )}
         {showLoadMore && visiblePosts.length < posts.length && (
           <div className="taCenter">
-            <button className="button" onClick={this.increaseLimit}>
+            <button className="Button" onClick={this.increaseLimit}>
               {loadMoreTitle}
             </button>
           </div>

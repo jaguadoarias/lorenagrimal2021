@@ -2,6 +2,7 @@ import React from 'react'
 import { navigate } from 'gatsby'
 import { Location } from '@reach/router'
 import qs from 'qs'
+import './Form.css'
 
 export default ({ pageCount }) => {
   return (
@@ -13,7 +14,8 @@ export default ({ pageCount }) => {
           <input
             type="text"
             value={search.s || ''}
-            placeholder="Search..."
+            className="Form--Input Form--InputText"
+            placeholder="Buscar post..."
             onChange={e => {
               let search = {}
               search.s = e.target.value
