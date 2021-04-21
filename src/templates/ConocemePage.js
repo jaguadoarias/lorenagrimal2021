@@ -1,6 +1,5 @@
 import React from 'react'
-import { graphql } from 'gatsby'
-
+import { Link, graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
 import Layout from '../components/Layout.js'
@@ -24,7 +23,9 @@ export const ConocemePageTemplate = ({
     <section className="section">
       <div className="container">
         <Content source={section1} />
-        <button className="Button Button--centered" aria-label="cta">Reserva tu Sesión de Diagnóstico Gratuita</button>
+        <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
+          <button className="Button">Reserva tu Sesión de Diagnóstico Gratuita</button>
+        </Link>
       </div>
     </section>
 
