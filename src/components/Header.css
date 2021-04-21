@@ -4,6 +4,10 @@
   top: 0;
   z-index: 2;
 }
+.Header.Header-fixed {
+  position: static;
+  background-color: var(--primaryLight);
+}
 
 .Nav {
   display: flex;

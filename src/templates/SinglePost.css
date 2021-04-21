@@ -24,7 +24,7 @@
 }
 
 .SinglePost--Content {
-  padding: 8rem 8rem 4rem 8rem;
+  
 }
 
 @media screen and (max-width: 750px) {
@@ -70,8 +70,20 @@
   font-size: 1.2rem;
   font-weight: 600;
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+.SinglePost--Pagination--Link:hover {
+  color: var(--primaryLight);
+}
+.SinglePost--Pagination--Link svg{
+  margin-right: .5rem;
 }
 
 .SinglePost--Pagination--Link.next {
   margin-left: auto;
+}
+.SinglePost--Pagination--Link.next svg {
+  margin-left: .5rem;
+  margin-right: 0;
 }

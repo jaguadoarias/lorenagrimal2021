@@ -68,9 +68,10 @@ export class Navigation extends Component {
         </li>
         
       )
+    const isBlogPage = this.props.location.pathname.includes('posts');
 
     return (
-      <header className={`Header${active ? ' Header-active' : ''}`}>
+      <header className={`Header ${active ? 'Header-active' : ''} ${isBlogPage && 'Header-fixed'}`}>
         <nav className="Nav container">
           <Link
             to="/"
