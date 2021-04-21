@@ -9,7 +9,6 @@ import CookieConsent from 'react-cookie-consent'
 // Export Template for use in CMS preview
 export const ConocemePageTemplate = ({
   title,
-  body,
   subtitle,
   featuredImage,
   section1,
@@ -22,11 +21,6 @@ export const ConocemePageTemplate = ({
       align="right"
       sign
     />
-    <section className="section">
-      <div className="container">
-        <Content source={body} />
-      </div>
-    </section>
     <section className="section">
       <div className="container">
         <Content source={section1} />

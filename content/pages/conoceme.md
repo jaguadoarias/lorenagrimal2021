@@ -47,5 +47,3 @@ section1: >-
 
   No hay miedo, pasa a la acción y reserva ahora tu sesión conmigo, analizaremos juntos tu situación actual y tu proceso de transformación.
 ---
-## adssda
-aspkda sdkàpsdàsdkasp aspkda sdkàpsdàsdkaspaspkda sdkàpsdàsdkaspaspkda sdkàpsdàsdkaspaspkda sdkàpsdàsdkasp
