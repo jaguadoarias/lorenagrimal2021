@@ -65,6 +65,13 @@ body {
 body.menu-open {
   overflow: hidden;
 }
+body.menu-open main,
+body.menu-open footer {
+  filter:blur(4px);
+  -o-filter:blur(4px);
+  -ms-filter:blur(4px);
+  -moz-filter:blur(4px);
+}
 
 a {
   color: var(--primary);

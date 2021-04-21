@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-
+import { Link } from 'gatsby'
 import Image from './Image'
 import Content from './Content'
 import './PageHeader.css'
@@ -40,13 +40,16 @@ const PageHeader = ({
           </svg>
         )}
         {cta && (
-          <button
-            className="Button"
-            tabIndex={0}
-            aria-label={cta}
-          >
-          {cta}
-          </button>
+          <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
+            <button
+              className="Button"
+              tabIndex={0}
+              aria-label={cta}
+            >
+              {cta}
+            </button>
+          </Link>
+          
         )}
          
       </div>

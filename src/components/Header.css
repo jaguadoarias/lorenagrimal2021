@@ -109,8 +109,9 @@
 }
 
 @media (max-width: 1024px) {
-  .Header {
-    /* position: sticky; */
+  .Header .Nav--MenuButton {
+    position: fixed;
+    right: 2rem;
   }
   .Nav {
     display: flex;
@@ -135,7 +136,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: var(--primary);
+    background: rgba(38, 70, 83, .9);
     animation: Nav--Links 0.2s ease;
   }
 

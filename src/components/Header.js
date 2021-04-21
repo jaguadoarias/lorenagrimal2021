@@ -132,7 +132,7 @@ export class Navigation extends Component {
             tabIndex={0}
             aria-label="Navigation"
           >
-            {active ? <X size={40} color="white" /> : <Menu size={40} color="white" />}
+            {active ? <X size={40} color="#e2b33c" /> : <Menu size={40} color="#e2b33c" />}
           </button>
         </nav>
       </header>

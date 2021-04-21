@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { CheckCircle } from 'react-feather'
+import { Link } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
@@ -89,7 +90,9 @@ Estrategia, mente y capacitación.</p>
             <li><CheckCircle color="#487E86" size="20" /> Alineando tu parte biológica, psicológica, social y laboral.</li>
             <li><CheckCircle color="#487E86" size="20" /> Te ofrezco mi apoyo constante en tu día a día durante la duración del proceso.</li>
           </ul>
-          <button className="Button">Reserva tu Sesión de Diagnóstico Gratuita</button>
+          <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
+            <button className="Button">Reserva tu Sesión de Diagnóstico Gratuita</button>
+          </Link>
         </div>
         <figure>
           <img
