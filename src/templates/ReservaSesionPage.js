@@ -11,7 +11,7 @@ import { InlineWidget } from "react-calendly";
 import './ContactPage.css'
 
 // Export Template for use in CMS preview
-export const ContactPageTemplate = ({
+export const ReservaSesionPageTemplate = ({
   body,
   title,
   subtitle,
@@ -43,7 +43,7 @@ export const ContactPageTemplate = ({
             
             {email && (
               <a className="Contact--Details--Item" target="_blank" rel="noopener noreferrer" href={`mailto:${email}`}>
-                <Mail /> lorena.grimal@gmail.com
+                <Mail /> lorena@lorenagrimal.com
               </a>
             )}
           </div>
@@ -55,19 +55,19 @@ export const ContactPageTemplate = ({
   </main>
 )
 
-const ContactPage = ({ data: { page } }) => (
+const ReservaSesionPage = ({ data: { page } }) => (
   <Layout
     meta={page.frontmatter.meta || false}
     title={page.frontmatter.title || false}
   >
-    <ContactPageTemplate {...page.frontmatter} body={page.html} />
+    <ReservaSesionPageTemplate {...page.frontmatter} body={page.html} />
   </Layout>
 )
 
-export default ContactPage
+export default ReservaSesionPage
 
 export const pageQuery = graphql`
-  query ContactPage($id: String!) {
+  query ReservaSesionPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
       html

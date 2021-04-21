@@ -3,8 +3,8 @@ import CMS from 'netlify-cms-app'
 import './cms-utils'
 
 import { HomePageTemplate } from '../templates/HomePage'
-import { AboutPageTemplate } from '../templates/AboutPage'
-import { ContactPageTemplate } from '../templates/ContactPage'
+import { ConocemePageTemplate } from '../templates/ConocemePage'
+import { ReservaSesionPageTemplate } from '../templates/ReservaSesionPage'
 import { SesionesPageTemplate } from '../templates/SesionesPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
@@ -26,11 +26,11 @@ if (
 CMS.registerPreviewTemplate('home-page', ({ entry }) => (
   <HomePageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('about-page', ({ entry }) => (
-  <AboutPageTemplate {...entry.toJS().data} />
+CMS.registerPreviewTemplate('conoceme-page', ({ entry }) => (
+  <ConocemePageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
-  <ContactPageTemplate {...entry.toJS().data} />
+CMS.registerPreviewTemplate('reserva-sesion-page', ({ entry }) => (
+  <ReservaSesionPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('infoPages', ({ entry }) => (
   <SesionesPageTemplate {...entry.toJS().data} />

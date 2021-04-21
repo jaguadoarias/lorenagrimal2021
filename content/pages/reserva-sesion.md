@@ -1,8 +1,8 @@
 ---
-template: ContactPage
-slug: contact
-title: Reserva tu cita
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
+template: ReservaSesionPage
+slug: reserva-sesion
+title: Reserva tu sesión
+featuredImage: https://ucarecdn.com/803b7e93-f2ab-4e7e-b8e8-9c9828fa0b89/
 subtitle: ¿Cómo puedo ayudarte?
 address: '404 James St, Burleigh Heads QLD 4220'
 phone: 0987 123 456
@@ -14,7 +14,7 @@ locations:
     mapLink: ''
 meta:
   description: This is a meta description.
-  title: Contact Page
+  title: Reserva sesión
 ---
 
 # Example contact form
