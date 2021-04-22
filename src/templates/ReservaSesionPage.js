@@ -16,9 +16,8 @@ export const ReservaSesionPageTemplate = ({
   title,
   subtitle,
   featuredImage,
-  address,
   instagram,
-  phone,
+  telegram,
   email,
 }) => (
   <main className="Contact">
@@ -33,17 +32,17 @@ export const ReservaSesionPageTemplate = ({
           <Content source={body} />
           <div className="Contact--Details">
             
-            <a className="Contact--Details--Item" target="_blank" rel="noopener noreferrer" href={instagram}>
-              <Instagram /> lorenagrimal_psicologa
+            <a className="Contact--Details--Item" target="_blank" rel="noopener noreferrer" href={`https://www.instagram.com/${instagram}`}>
+              <Instagram /> {instagram}
             </a>
           
             <a className="Contact--Details--Item" href="https://t.me/lorenagrimal" target="_blank" rel="noopener noreferrer">
-              <Send /> @lorenagrimal
+              <Send /> @{telegram}
             </a>
             
             {email && (
               <a className="Contact--Details--Item" target="_blank" rel="noopener noreferrer" href={`mailto:${email}`}>
-                <Mail /> lorena@lorenagrimal.com
+                <Mail /> {email}
               </a>
             )}
           </div>
@@ -76,15 +75,9 @@ export const pageQuery = graphql`
         template
         subtitle
         featuredImage
-        address
-        phone
         instagram
+        telegram
         email
-        locations {
-          mapLink
-          lat
-          lng
-        }
       }
     }
   }

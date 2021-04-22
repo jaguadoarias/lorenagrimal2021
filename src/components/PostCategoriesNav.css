@@ -6,6 +6,17 @@
   position: relative;
 }
 
+.PostCategoriesNav .NavLink {
+  color: var(--primary);
+  font-size: 1.4rem;
+}
+
+.PostCategoriesNav .NavLink:hover,
+.PostCategoriesNav .NavLink[aria-current] {
+  color: var(--secondaryLight);
+  border-color: currentColor;
+}
+
 .PostCategoriesNav > * + * {
   margin-left: 1rem;
 }

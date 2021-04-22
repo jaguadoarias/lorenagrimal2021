@@ -66,6 +66,10 @@
 @media (max-width: 600px) {
   .PageHeader--Title {
     margin-top: 7rem;
+    max-width: initial;
+  }
+  .PageHeader--Subtitle, .Sign {
+    display: none;
   }
   .PageHeader-large .BackgroundImage {
     background-position: 58% 0;

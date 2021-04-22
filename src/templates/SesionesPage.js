@@ -1,10 +1,9 @@
 import React from 'react'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
-import SVGIcon from '../components/SVGIcon'
 import CookieConsent from 'react-cookie-consent'
 
 // Export Template for use in CMS preview
@@ -24,8 +23,11 @@ export const SesionesPageTemplate = ({
     <section className="section">
       <div className="container">
         <Content source={body} />
-        <SVGIcon src="/images/calendar.svg" />
+        <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
+          <button className="Button">Reserva tu Sesión de Diagnóstico Gratuita</button>
+        </Link>
       </div>
+      
     </section>
   </main>
 )

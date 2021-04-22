@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import _get from 'lodash/get'
 import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
@@ -37,7 +37,7 @@ export const SinglePostTemplate = ({
               </time>
             )}
             {categories && (
-              <Fragment>
+              <>
                 <span>|</span>
                 {categories.map((cat, index) => (
                   <span
@@ -49,7 +49,7 @@ export const SinglePostTemplate = ({
                     {index !== categories.length - 1 ? ',' : ''}
                   </span>
                 ))}
-              </Fragment>
+              </>
             )}
           </div>
 
