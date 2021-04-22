@@ -2,7 +2,7 @@
 template: SinglePost
 title: Potenciar tu bienestar emocional está en tu mano
 status: Published
-date: 2018-05-25
+date: 2020-10-19
 featuredImage: https://ucarecdn.com/b9ab7abd-1dd4-4c19-9e2a-60412b6686af/
 excerpt: This is placeholder text that our web designers put here to make sure
   words appear properly on your website. This text is going to be replaced once
