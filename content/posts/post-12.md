@@ -12,7 +12,7 @@ categories:
   - category: Crecimiento personal
 meta:
   description: Potenciar tu bienestar emocional
-  title: blog
+  title: Potenciar tu bienestar emocional
 ---
 ### Cómo entrenar mi mente para conseguir mi mejor versión.
 
