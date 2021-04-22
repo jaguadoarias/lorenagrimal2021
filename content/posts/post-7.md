@@ -12,14 +12,10 @@ categories:
   - category: Crecimiento personal
 meta:
   canonicalLink: ""
-  description: test meta description
+  description: Mente positiva con 4 palabras
   noindex: false
-  title: test meta title
+  title: Mente positiva con 4 palabras
 ---
-Paragraphs are separated by a blank line.
-
-![Test Image](https://ucarecdn.com/ac9898a0-413a-467b-95fa-0a9959c30710/)
-
 ### ¿Te habías planteado alguna vez cómo el lenguaje condiciona nuestras emociones?
 
 ¿Alguien te había contado que, si modificas tu lenguaje, modificas tu estado de ánimo?
@@ -58,8 +54,6 @@ En la publicación de Instagram previa a este post, alguien me dejó este coment
 > ¿Sabíais que en el idioma Swahili (es un idioma que se habla en varios países de África) no existe el verbo “intentar”? O se hace o no se hace. Muy sabios
 >
 > @SUSANABOKOBO
-
-
 
 4. ***SOY POR ESTOY***: Es curioso este cambio, que en otros idiomas tampoco existe, y es que cuando «soy», estoy hablando de mi esencia inmodificable, por ejemplo, soy persona, pero si «estoy», es algo puntual, como «estoy triste», no «soy triste», y eso, si quiero, puedo modificarlo, depende de mi y puedo hacer lo que quiera. Un ejemplo:
 
