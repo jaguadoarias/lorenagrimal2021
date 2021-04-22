@@ -2,7 +2,7 @@
 template: SinglePost
 title: "Euroemociones: Truco para un autoanálisis efectivo"
 status: Published
-date: 2018-05-25
+date: 2017-12-11
 featuredImage: https://ucarecdn.com/9d63945d-61a1-446a-8af2-3d31e92b0e42/
 excerpt: This is placeholder text that our web designers put here to make sure
   words appear properly on your website. This text is going to be replaced once
