@@ -6,7 +6,6 @@ date: 2017-10-02
 featuredImage: https://ucarecdn.com/21b78afb-35a9-4bc8-a094-dcd11e443c62/
 excerpt: This is an excerpt of Post Two
 categories:
-  - category: Updates
   - category: Psicologia
 meta:
   description: Autoinstrucciones
