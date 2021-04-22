@@ -6,7 +6,6 @@ date: 2017-09-25
 featuredImage: https://ucarecdn.com/09ebaee6-92ef-4983-8d4d-8cb5cec0230d/
 excerpt: This is an excerpt of Post Two
 categories:
-  - category: Updates
   - category: Psicologia
 meta:
   description: |
