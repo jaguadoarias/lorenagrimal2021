@@ -8,8 +8,8 @@ instagram: lorenagrimal_psicologa
 telegram: lorenagrimal
 email: lorena.grimal@gmail.com
 meta:
-  description: This is a meta description.
-  title: Reserva sesión
+  description: Reserva tu sesión con Lorena Grimal
+  title: Reserva tu sesión con Lorena Grimal
 ---
 
 # Puedes encontrarme en:
