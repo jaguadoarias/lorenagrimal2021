@@ -3,7 +3,7 @@ template: SinglePost
 title: POTENCIAR TU BIENESTAR EMOCIONAL ESTÁ EN TU MANO
 status: Published
 date: 2018-05-25
-featuredImage: https://ucarecdn.com/a7f36998-7a41-4a63-b0b1-91ef46cd638b/
+featuredImage: https://ucarecdn.com/fb10d4d7-0d04-454b-ab43-931ba10e3372/
 excerpt: This is placeholder text that our web designers put here to make sure
   words appear properly on your website. This text is going to be replaced once
   the website is completed. You are currently reading text that is written in
