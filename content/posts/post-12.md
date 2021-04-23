@@ -53,5 +53,3 @@ Si decides implementar esta rutina, me encantaría saber cuál ha sido tu cambio
 Puedes encontrar muchos más tips para tu mente en el perfil de [Instagram](https://www.instagram.com/terapiaenred/).
 
 ¡Feliz día!
-
-![Potenciar tu bienestar emocional](https://ucarecdn.com/85406efa-4133-4b56-912f-366a7edeb5eb/ "Potenciar tu bienestar emocional")
