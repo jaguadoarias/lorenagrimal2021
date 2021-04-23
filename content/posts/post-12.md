@@ -26,8 +26,6 @@ Muchas veces pregunto qué pasaría si en este momento nos dijeran que mañana t
 
 > Lo mismo ocurre con nuestra mente, no esperemos grandes cambios el primer día, pero sí llegarán si continuamos con ello.
 
-
-
 Podemos realizar el entrenamiento por la mañana, por la noche o en los dos momentos.
 
 **ENTRENAMIENTO MAÑANA**:
@@ -55,3 +53,5 @@ Si decides implementar esta rutina, me encantaría saber cuál ha sido tu cambio
 Puedes encontrar muchos más tips para tu mente en el perfil de [Instagram](https://www.instagram.com/terapiaenred/).
 
 ¡Feliz día!
+
+![Potenciar tu bienestar emocional](https://ucarecdn.com/85406efa-4133-4b56-912f-366a7edeb5eb/ "Potenciar tu bienestar emocional")
