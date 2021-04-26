@@ -56,8 +56,8 @@ REFORZAR: Premiar aquello que he conseguido (cada uno tiene su propio sistema de
 
 EVALUAR: Si he conseguido perder algún kilo, las autoinstrucciones habrán funcionado. Si no lo he conseguido, debo modificar las autoinstrucciones y llevarlas más al extremo “Voy a comprar solo comida saludable”, “Después de desayunar voy a salir a caminar 1 hora 3 veces a la semana”, “El pastel destruye mi salud”
 
-Con quien más dialogamos es con nosotros mismos, a quien más instrucciones damos es a nosotros mismos, y **con quien más confianza tenemos es con nosotros mismos**, por tanto, si quieres cambiar tu vida, empieza por cambiar tus autoinstrucciones, y si necesitas un **plan personalizado**, contacta conmigo a través del formulario [CONTACTA](https://terapiaenred.es/contacta/) o escríbeme un mail a [terapiaenred.lgc@gmail.com](mailto:terapiaenred.lgc@gmail.com)
+Con quien más dialogamos es con nosotros mismos, a quien más instrucciones damos es a nosotros mismos, y **con quien más confianza tenemos es con nosotros mismos**, por tanto, si quieres cambiar tu vida, empieza por cambiar tus autoinstrucciones, y si necesitas un **plan personalizado**, escríbeme un mail a [lorena@lorenagrimal.com](mailto:lorena@lorenagrimal.com)
 
 Espero que incorpores esta técnica en tu día a día, puedes usarla para “casi todo”; las mejoras se notan a corto plazo!
 
-Feliz día!
+**Feliz día!**
