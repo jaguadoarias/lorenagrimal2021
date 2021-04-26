@@ -1,5 +1,4 @@
 import React from 'react'
-import { Instagram, Send, Mail } from 'react-feather'
 import { graphql } from 'gatsby'
 
 import PageHeader from '../components/PageHeader'
@@ -8,17 +7,12 @@ import Layout from '../components/Layout'
 import CookieConsent from 'react-cookie-consent'
 import { InlineWidget } from "react-calendly";
 
-import './ContactPage.css'
-
 // Export Template for use in CMS preview
 export const ReservaSesionPageTemplate = ({
   body,
   title,
   subtitle,
   featuredImage,
-  instagram,
-  telegram,
-  email,
 }) => (
   <main className="Contact">
     <PageHeader
@@ -30,22 +24,6 @@ export const ReservaSesionPageTemplate = ({
       <div className="container Contact--Section1--Container">
         <div>
           <Content source={body} />
-          <div className="Contact--Details">
-            
-            <a className="Contact--Details--Item" target="_blank" rel="noopener noreferrer" href={`https://www.instagram.com/${instagram}`}>
-              <Instagram /> {instagram}
-            </a>
-          
-            <a className="Contact--Details--Item" href="https://t.me/lorenagrimal" target="_blank" rel="noopener noreferrer">
-              <Send /> @{telegram}
-            </a>
-            
-            {email && (
-              <a className="Contact--Details--Item" target="_blank" rel="noopener noreferrer" href={`mailto:${email}`}>
-                <Mail /> {email}
-              </a>
-            )}
-          </div>
         </div>
         <InlineWidget url="https://calendly.com/lorenagrimal" />
       </div>
@@ -75,9 +53,6 @@ export const pageQuery = graphql`
         template
         subtitle
         featuredImage
-        instagram
-        telegram
-        email
       }
     }
   }

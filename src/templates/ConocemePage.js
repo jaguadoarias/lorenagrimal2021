@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+import { Instagram, Send, Mail } from 'react-feather'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
 import Layout from '../components/Layout.js'
 import CookieConsent from 'react-cookie-consent'
+
+import './ConocemePage.css'
 
 // Export Template for use in CMS preview
 export const ConocemePageTemplate = ({
@@ -11,6 +14,9 @@ export const ConocemePageTemplate = ({
   subtitle,
   featuredImage,
   section1,
+  instagram,
+  telegram,
+  email,
 }) => (
   <main>
     <PageHeader
@@ -21,11 +27,30 @@ export const ConocemePageTemplate = ({
       sign
     />
     <section className="section">
-      <div className="container">
+      <div className="container cols">
+          
+          <div className="Contact--Details">
+            <h2>Puedes encontrarme en:</h2>
+            <a className="Contact--Details--Item" target="_blank" rel="noopener noreferrer" href={`https://www.instagram.com/${instagram}`}>
+              <Instagram /> {instagram}
+            </a>
+          
+            <a className="Contact--Details--Item" href="https://t.me/lorenagrimal" target="_blank" rel="noopener noreferrer">
+              <Send /> @{telegram}
+            </a>
+            
+            {email && (
+              <a className="Contact--Details--Item" target="_blank" rel="noopener noreferrer" href={`mailto:${email}`}>
+                <Mail /> {email}
+              </a>
+            )}
+            <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
+              <button className="Button">Reserva tu Sesión de Diagnóstico Gratuita</button>
+            </Link>
+          </div>
+
         <Content source={section1} />
-        <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
-          <button className="Button">Reserva tu Sesión de Diagnóstico Gratuita</button>
-        </Link>
+        
       </div>
     </section>
 
@@ -55,6 +80,9 @@ export const pageQuery = graphql`
         subtitle
         featuredImage
         section1
+        instagram
+        telegram
+        email
       }
     }
   }

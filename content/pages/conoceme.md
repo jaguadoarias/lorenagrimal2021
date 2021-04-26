@@ -6,6 +6,9 @@ featuredImage: https://ucarecdn.com/7596cb33-62dd-48c0-936c-b9486b23a9c3/
 subtitle: Hola, soy Lorena, me fascina la mente humana y por eso me dedico a
   trabajar con personas acompañándolas en procesos de transformación y
   crecimiento.
+instagram: lorenagrimal_psicologa
+telegram: lorenagrimal
+email: lorena.grimal@gmail.com
 meta:
   description: Lorena Grimal psicologia y mentoring, te acompaña en procesos de
     transformación a través de sesiones individuales, sesiones grupales,

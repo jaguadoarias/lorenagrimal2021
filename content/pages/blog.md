@@ -2,8 +2,8 @@
 template: BlogIndex
 slug: blog
 title: Blog
-featuredImage: 'https://ucarecdn.com/b6254577-26bf-4b79-aa9b-f3793e2aebdc/'
-subtitle: This is the blog page subtitle.
+featuredImage: 'https://ucarecdn.com/f6690474-9389-46d6-90b5-62c43b8ee6af/-/contrast/25/'
+subtitle: Para mentes curiosas.
 meta:
   description: Blog de psicología y Crecimiento personal
   title: Blog de psicología y Crecimiento personal
