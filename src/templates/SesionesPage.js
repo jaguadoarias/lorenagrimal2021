@@ -21,11 +21,18 @@ export const SesionesPageTemplate = ({
     />
 
     <section className="section">
-      <div className="container">
+      <div className="container cols cols1-2">
+        <figure>
+          <img
+            src="https://ucarecdn.com/e9defa5e-8546-408d-931b-5fe23fbc75c1/"
+            alt="Lorena Grimal - Sesiones"
+          />
+          <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
+            <button className="Button">Reserva tu Sesión de Diagnóstico Gratuita</button>
+          </Link>
+        </figure>
         <Content source={body} />
-        <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
-          <button className="Button">Reserva tu Sesión de Diagnóstico Gratuita</button>
-        </Link>
+        
       </div>
       
     </section>
