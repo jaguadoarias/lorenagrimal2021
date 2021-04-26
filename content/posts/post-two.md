@@ -64,7 +64,7 @@ Si queréis adquirir este libro, podéis hacerlo desde **[ESTE ENLACE](http://ww
 
 Algunos recursos más:
 
-1. Si tienes **dudas inmediatas** sobre lo que te está pasando, por favor, **contacta conmigo** en este correo y te daré respuesta lo antes posible: [terapiaenred.lgc@gmail.com](mailto:terapiaenred.lgc@gmail.com).
+1. Si tienes **dudas inmediatas** sobre lo que te está pasando, por favor, **contacta conmigo** en este correo y te daré respuesta lo antes posible: [lorena@lorenagrimal.com](mailto:terapiaenred.lgc@gmail.com).
 2. En la red se puede encontrar mucha información sobre los trastornos de ansiedad, así que voy a dejarte unos enlaces fiables y validados para que puedas leer más sobre el TAG (trastorno de ansiedad generalizada).
 
 <https://www.cop.es/colegiados/A-00512/ansia.html>
@@ -73,4 +73,4 @@ Algunos recursos más:
 
 Espero que toda esta información os sea de gran utilidad.
 
-Feliz día!
+**Feliz día!**
