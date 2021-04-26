@@ -21,11 +21,11 @@ export const SinglePostTemplate = ({
       itemScope
       itemType="http://schema.org/BlogPosting"
     >
-      <div className="container skinny">
-        <Link className="SinglePost--BackButton" to="/blog/">
-          <ChevronLeft /> Volver
-        </Link>
+      <div className="container">
         <div className="SinglePost--Content relative">
+          <Link className="SinglePost--BackButton" to="/blog/">
+            <ChevronLeft /> Volver
+          </Link>
           <div className="SinglePost--Meta">
             {date && (
               <time
@@ -53,13 +53,12 @@ export const SinglePostTemplate = ({
             )}
           </div>
 
-          {title && (
-            <h1 className="SinglePost--Title" itemProp="title">
-              {title}
-            </h1>
-          )}
-
           <div className="SinglePost--InnerContent">
+            {title && (
+              <h1 className="SinglePost--Title" itemProp="title">
+                {title}
+              </h1>
+            )}
             <Content source={body} />
           </div>
 
