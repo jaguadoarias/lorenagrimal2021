@@ -24,10 +24,6 @@
   transform: translateX(-0.25em);
 }
 
-.SinglePost--Content {
-  
-}
-
 @media screen and (max-width: 1024px) {
   .SinglePost--BackButton {
     display: none;

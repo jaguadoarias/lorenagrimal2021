@@ -27,7 +27,7 @@ export const ConocemePageTemplate = ({
       sign
     />
     <section className="section">
-      <div className="container cols">
+      <div className="container cols cols1-2">
           
           <div className="Contact--Details">
             <h2>Puedes encontrarme en:</h2>
@@ -44,6 +44,15 @@ export const ConocemePageTemplate = ({
                 <Mail /> {email}
               </a>
             )}
+
+            <figure className="Contact--image">
+              <img
+                src="https://ucarecdn.com/b6401723-05ca-4164-8693-04d306d2b879/"
+                alt="Lorena Grimal - Conoceme"
+                className="clip-circle"
+              />
+            </figure>
+
             <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
               <button className="Button">Reserva tu Sesión de Diagnóstico Gratuita</button>
             </Link>
