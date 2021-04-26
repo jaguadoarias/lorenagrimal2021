@@ -34,4 +34,4 @@ Para aquellos que quieran ir más allá os dejo dos reseñas por si queréis bus
 * Rizzolati y su equipo son los descubridores de las neuronas espejo.
 * Gregory Hickok en *The Myth of Mirror Neurons*, *The Real Neuroscience of Communication and Cognitio* profundiza en todas las evidencias asociadas a las neuronas espejo, validando o rechazando las características que se le atribuyen.
 
-Feliz día!
+**Feliz día!**
