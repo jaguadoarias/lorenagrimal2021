@@ -48,8 +48,8 @@ Podemos realizar el entrenamiento por la mañana, por la noche o en los dos mome
 
 La bioquímica cerebral se puede manejar de manera consciente, ¿te animas?
 
-Si decides implementar esta rutina, me encantaría saber cuál ha sido tu cambio. Me lo puedes contar en terapiaenred.lgc@gmail.com
+Si decides implementar esta rutina, me encantaría saber cuál ha sido tu cambio. Me lo puedes contar en [lorena@lorenagrimal.com](mailto:lorena@lorenagrimal.com)
 
-Puedes encontrar muchos más tips para tu mente en el perfil de [Instagram](https://www.instagram.com/terapiaenred/).
+Puedes encontrar muchos más tips para tu mente en el perfil de [Instagram](https://www.instagram.com/lorenagrimal_psicologa/).
 
-¡Feliz día!
+**¡Feliz día!**
