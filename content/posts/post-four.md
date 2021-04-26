@@ -46,4 +46,4 @@ La mía ha sido tan positiva que comienza el cambio. Os mantendré informad@s!
 
 Si te ha llamado tanto la atención que quieres profundizar más, te recomiendo el libro [“Elogio de la lentitud” de Carl Honore](https://www.amazon.es/gp/product/8492966866/ref=as_li_tl?ie=UTF8&camp=3638&creative=24630&creativeASIN=8492966866&linkCode=as2&tag=terapiaenred-21&linkId=ce0650af5d06ff5d83b11a783f17e6fe%22%3EElogio%20de%20la%20lentitud%20(NO%20FICCION)%3C/a%3E%3Cimg%20src=%22//ir-es.amazon-adsystem.com/e/ir?t=terapiaenred-21&l=am2&o=30&a=8492966866)! Una gozada de lectura!
 
-Feliz día!
+**Feliz día!**
