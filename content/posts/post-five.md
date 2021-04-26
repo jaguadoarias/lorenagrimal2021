@@ -44,4 +44,4 @@ Espero que este acercamiento os de una pauta para realizar un autoanálisis de e
 
 Es curioso, pero a nivel nutricional funcionamos igual, exceso de ingesta y no gasto, genera sobrepeso. Déficit de ingesta y exceso de gasto, genera infrapeso… y son dos desequilibrios que también debemos tener en cuenta para tener una adecuada salud BIO. Mantengamos también nuestro cerebro en forma!
 
-Feliz día!
+**Feliz día!**
