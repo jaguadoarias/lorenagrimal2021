@@ -1,0 +1,9 @@
+.calendly-inline-widget {
+  height: 400px !important;
+}
+
+@media (min-width: 1024px) {
+  .calendly-inline-widget {
+    order: 2;
+  }
+}

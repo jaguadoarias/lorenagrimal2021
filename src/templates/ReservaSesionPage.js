@@ -7,6 +7,8 @@ import Layout from '../components/Layout'
 import CookieConsent from 'react-cookie-consent'
 import { InlineWidget } from "react-calendly";
 
+import './ReservaSesionPage.css'
+
 // Export Template for use in CMS preview
 export const ReservaSesionPageTemplate = ({
   body,
@@ -22,10 +24,10 @@ export const ReservaSesionPageTemplate = ({
     />
     <section className="section Contact--Section1">
       <div className="container Contact--Section1--Container">
+        <InlineWidget url="https://calendly.com/lorenagrimal" />
         <div>
           <Content source={body} />
         </div>
-        <InlineWidget url="https://calendly.com/lorenagrimal" />
       </div>
     </section>
     <CookieConsent buttonText="Entendido" cookieName="lorenaGrimal" buttonStyle={{ backgroundColor: "var(--primaryLight)", fontSize: "14px", color: "white", borderRadius: '30px' }}>¡Hola! Este sitio web usa cookies propias y de terceros para mejorar tu navegación.</CookieConsent>

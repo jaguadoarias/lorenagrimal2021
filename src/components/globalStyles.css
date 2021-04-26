@@ -230,7 +230,7 @@ blockquote {
   text-shadow: 1px 1px 1px var(--primary);
 }
 .section h2 {
-  font-size: 3rem;
+  font-size: 2.4rem;
   position: relative;
 }
 
@@ -265,7 +265,7 @@ blockquote {
 .cols {
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-  gap: 2rem;
+  gap: 3rem;
 }
 
 figure img {
@@ -432,5 +432,11 @@ figure img {
   }
   .Methods::before {
     transform: rotate(90deg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .section h2 {
+    font-size: 3rem;
   }
 }

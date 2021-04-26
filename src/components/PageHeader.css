@@ -43,14 +43,6 @@
   flex-direction: column;
 }
 
-.PageHeader.right {
-  text-align: right;
-}
-
-.PageHeader.right  .container{
-  align-items: flex-end;
-}
-
 .Sign {
   width: 200px;
   stroke: white;
@@ -73,6 +65,16 @@
   }
   .PageHeader-large .BackgroundImage {
     background-position: 58% 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .PageHeader.right {
+    text-align: right;
+  }
+  
+  .PageHeader.right  .container{
+    align-items: flex-end;
   }
 }
 
