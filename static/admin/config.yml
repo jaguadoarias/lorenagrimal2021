@@ -126,6 +126,20 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Instagram, name: instagram, widget: string }
           - { label: Telegram, name: telegram, widget: string }
 
+      - file: 'content/pages/privacidad.md'
+        label: 'Privacidad'
+        name: 'privacidad-page'
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: PrivacidadPage,
+            }
+          - { label: Slug, name: slug, widget: hidden, default: 'privacidad' }
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
       - file: 'content/pages/home.md'
         label: 'Home'
         name: 'home-page'

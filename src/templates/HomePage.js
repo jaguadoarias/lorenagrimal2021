@@ -51,9 +51,9 @@ export const HomePageTemplate = ({ title, subheading, subtitle, featuredImage, b
     </section>
 
     <section className="section section--secondary section--separator">   
-      <div class="custom-shape-divider-top-1618653597">
+      <div className="custom-shape-divider-top-1618653597">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-              <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+              <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className="shape-fill"></path>
           </svg>
       </div>
       <div className="container">
@@ -66,15 +66,15 @@ Estrategia, mente y capacitación.</p>
 
       <div className="container">
         <h3>Las tres Cs del éxito emocional, biológico y social.</h3>
-        <ul class="Methods">
+        <ul className="Methods">
           <li><h4>Creer</h4> Es el pilar del cambio. Comienza el camino creyendo en tí, identificando en qué punto te encuentras y focalizándote en la conciencia de tu poder.</li>
           <li><h4>Crear</h4> Es la potencia de la transformación. Continúa creando tu destino y el camino que te llevará a alcanzarlo.</li>
           <li><h4>Confiar</h4> Es la garantía del éxito. Confía en tí, en tus recursos y en que has escogido tu mejor estrategia.</li>
         </ul>
       </div>
-      <div class="custom-shape-divider-bottom-1618653720">
+      <div className="custom-shape-divider-bottom-1618653720">
           <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-              <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+              <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className="shape-fill"></path>
           </svg>
       </div>
     </section>
@@ -83,7 +83,7 @@ Estrategia, mente y capacitación.</p>
       <div className="container cols">
         <div>
           <h2>Metodología Estratégica Individualizada</h2>
-          <ul class="List">
+          <ul className="List">
             <li><CheckCircle color="#487E86" size="20" /> Trabajaremos codo a codo, desde el descubrimiento hasta el éxito.</li>
             <li><CheckCircle color="#487E86" size="20" /> Con una metodología basada en la eficacia y la evidencia.</li>
             <li><CheckCircle color="#487E86" size="20" /> Transformación vital para sentirte libre y en equilibrio.</li>

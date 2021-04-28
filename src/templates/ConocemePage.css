@@ -23,7 +23,6 @@
 }
 
 .Contact--image {
-  clip-path: circle(34% at center);
   margin-top: 3rem;
   margin-left: 0;
 }

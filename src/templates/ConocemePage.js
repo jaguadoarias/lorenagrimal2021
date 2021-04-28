@@ -49,7 +49,6 @@ export const ConocemePageTemplate = ({
               <img
                 src="https://ucarecdn.com/b6401723-05ca-4164-8693-04d306d2b879/"
                 alt="Lorena Grimal - Conoceme"
-                className="clip-circle"
               />
             </figure>
 

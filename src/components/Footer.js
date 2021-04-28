@@ -14,8 +14,8 @@ export default () => (
             <li><Link to="/sesiones/" aria-label="Navigation" role="button">Sesiones</Link></li>
             <li><Link to="/reserva-sesion/" aria-label="Navigation" role="button">Reserva tu sesión</Link></li>
             <li><Link to="/conoceme/" aria-label="Navigation" role="button">Conóceme</Link></li>
-            <li><Link to="/contact/" aria-label="Navigation" role="button">Privacidad</Link></li>
-            <li><Link to="/contact/" aria-label="Navigation" role="button">Cookies</Link></li>
+            <li><a href="/privacidad/" target="_blank">Privacidad</a></li>
+            <li><a href="/cookies/" target="_blank">Cookies</a></li>
           </ul>
         </nav>
         

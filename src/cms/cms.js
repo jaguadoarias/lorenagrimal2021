@@ -4,6 +4,7 @@ import './cms-utils'
 
 import { HomePageTemplate } from '../templates/HomePage'
 import { ConocemePageTemplate } from '../templates/ConocemePage'
+import { PrivacidadPageTemplate } from '../templates/PrivacidadPage'
 import { ReservaSesionPageTemplate } from '../templates/ReservaSesionPage'
 import { SesionesPageTemplate } from '../templates/SesionesPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
@@ -28,6 +29,9 @@ CMS.registerPreviewTemplate('home-page', ({ entry }) => (
 ))
 CMS.registerPreviewTemplate('conoceme-page', ({ entry }) => (
   <ConocemePageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('privacidad-page', ({ entry }) => (
+  <PrivacidadPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('reserva-sesion-page', ({ entry }) => (
   <ReservaSesionPageTemplate {...entry.toJS().data} />

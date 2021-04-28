@@ -34,6 +34,7 @@
 .PageHeader--Subheading {
   font-family: var(--font-secondary);
   font-size: 4rem;
+  font-weight: 400;
   color: var(--secondaryLight);
 }
 

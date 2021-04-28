@@ -15,4 +15,4 @@ Todo empieza por una toma de decisiones, para darte la oportunidad de sentir qu�
 
 Si quieres acercarte a conocer tu mente y cuál es el potencial que está en tu interior, reserva ya tu sesión de diagnóstico gratuita.
 
-Sólo tienes que clicar en SESIÓN DE DIAGNÓSTICO GRATUITA y seguir las instrucciones.
+Sólo tienes que hacer click en <strong>SESIÓN DE DIAGNÓSTICO GRATUITA</strong>  y seguir las instrucciones.

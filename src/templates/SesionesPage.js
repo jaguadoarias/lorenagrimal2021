@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-
+import { CheckCircle } from 'react-feather'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
@@ -22,6 +22,19 @@ export const SesionesPageTemplate = ({
 
     <section className="section">
       <div className="container cols cols1-2">
+        <div>
+          <Content source={body} />
+          <ul class="List cols">
+            <li><CheckCircle color="#487E86" size="20" /> <strong>Mentorías Individuales</strong></li>
+            <li><CheckCircle color="#487E86" size="20" /> <strong>Mentorías Grupales</strong></li>
+            <li><CheckCircle color="#487E86" size="20" /> <strong>Sesiones Estratégicas</strong></li>
+          </ul>
+          <p>En muchas ocasiones, recibo clientes con dolores físicos, que después de haber pasado por diferentes especialistas médicos, terminan llamando a mi puerta. Curiosamente la transformación física sucede cuando se realiza un cambio a otro nivel, ya sea familiar, laboral o mental.</p>
+          <p>Las sesiones de transformación son muy estratégicas, con una absoluta implicación constante desde mi persona para tu persona.</p>
+          <p>Aprenderás a crear Planes de Acción estratégicos para lograr los objetivos de tu vida. Este aprendizaje lo vas a poder implementar en cualquier ámbito de tu vida, desde el plano laboral, pareja, familia, físico…</p>
+          <p>Mi experiencia de cambio y transformación es de 12 sesiones, con una metodología de éxito y orientada a cada individuo como ser único e independiente.</p>
+          <p>Llevo más de 20 años transformando personas, ahora es el momento de apostar por ti, es el momento de conocer los mecanismos internos que posees y sacarlos a la luz para descubrir y ofrecer tu mejor versión.</p>
+        </div>
         <figure>
           <img
             src="https://ucarecdn.com/e9defa5e-8546-408d-931b-5fe23fbc75c1/"
@@ -31,8 +44,6 @@ export const SesionesPageTemplate = ({
             <button className="Button">Reserva tu Sesión de Diagnóstico Gratuita</button>
           </Link>
         </figure>
-        <Content source={body} />
-        
       </div>
       
     </section>

@@ -204,6 +204,7 @@ blockquote {
    color: var(--secondaryLight);
    max-width: 80%;
    font-family: var(--font-secondary);
+   font-weight: 400;
    color: var(--secondary);
    margin: 0 auto;
  }
@@ -274,6 +275,8 @@ blockquote {
 
 figure img {
   max-width: 100%;
+  box-shadow: 0 0 0px 2px var(--secondary);
+  border-radius: 30px;
 }
 
 .section p {
