@@ -140,6 +140,20 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Title, name: title, widget: string }
           - { label: Body, name: body, widget: markdown }
 
+      - file: 'content/pages/cookies.md'
+        label: 'Cookies'
+        name: 'cookies-page'
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: CookiesPage,
+            }
+          - { label: Slug, name: slug, widget: hidden, default: 'cookies' }
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
       - file: 'content/pages/home.md'
         label: 'Home'
         name: 'home-page'

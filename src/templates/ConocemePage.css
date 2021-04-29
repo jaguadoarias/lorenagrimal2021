@@ -15,11 +15,22 @@
 .Contact--Details--Item:focus {
   color: var(--primaryLight);
 }
+.Contact--Details--Item:hover svg {
+  transform: rotate(10deg) scale(0.9);
+  transition: all ease .2s;
+}
+.Contact--Details--Item:hover svg.ch {
+  fill: var(--primaryLight);
+}
 
 .Contact--Details--Item svg {
   margin-right: 1.5rem;
   color: var(--primary);
   transition: color 0.2s ease-in-out;
+}
+
+.Contact--Details--Item svg.ch {
+  fill: var(--primary);
 }
 
 .Contact--image {

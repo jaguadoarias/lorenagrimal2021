@@ -42,9 +42,13 @@
 }
 
 .footer a:hover svg:not(.Logo) {
-  stroke: var(--primaryLight);
-  transform: scale(0.9);
-  transition: all linear .1s;
+  opacity: .8;
+  color: #fff;
+  transform: rotate(10deg) scale(0.9);
+  transition: all ease .2s;
+}
+.footer a svg.ch {
+  fill: #fff;
 }
 
 .footer small {

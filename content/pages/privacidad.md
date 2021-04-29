@@ -10,16 +10,125 @@ meta:
   title: Lorena Grimal psicologia y mentoring
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet velit id nisi accumsan porta id sed neque. Mauris eleifend tincidunt elit. Aenean consequat neque massa, et pellentesque purus tempus vel. Phasellus tincidunt ultricies quam, quis malesuada nulla vehicula at. Nullam finibus odio eget felis pretium, nec scelerisque diam auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris fermentum justo quis libero elementum pharetra. Duis ac massa ac libero malesuada eleifend id a ex. Donec eget dapibus ante.
+Lorena Grimal te informa sobre su Política de Privacidad respecto del tratamiento y protección de los datos de carácter personal de los usuarios y clientes que puedan ser recabados por la navegación o contratación de servicios a través del sitio Web www.lorenagrimal.com
+
+En este sentido, el Titular garantiza el cumplimiento de la normativa vigente en materia de protección de datos personales, reflejada en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y de Garantía de Derechos Digitales (LOPD GDD). Cumple también con el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas (RGPD).
+
+El uso de sitio Web implica la aceptación de esta Política de Privacidad así como las condiciones incluidas en el Aviso Legal.
+
+## Identidad del responsable
+- Titular: Lorena Grimal
+- Número de colegiada: M-18958
+- Correo electrónico: lorena@lorenagrimal.com
+- Sitio Web: www.lorenagrimal.com
+
+## Principios aplicados en el tratamiento de datos
+En el tratamiento de tus datos personales, el Titular aplicará los siguientes principios que se ajustan a las exigencias del nuevo reglamento europeo de protección de datos:
+
+- Principio de licitud, lealtad y transparencia: El Titular siempre requerirá el consentimiento para el tratamiento de tus datos personales que puede ser para uno o varios fines específicos sobre los que te informará previamente con absoluta transparencia.
+- Principio de minimización de datos: El Titular te solicitará solo los datos estrictamente necesarios para el fin o los fines que los solicita.
+- Principio de limitación del plazo de conservación: Los datos se mantendrán durante el tiempo estrictamente necesario para el fin o los fines del tratamiento.
+- El Titular te informará del plazo de conservación correspondiente según la finalidad. En el caso de suscripciones, el Titular revisará periódicamente las listas y eliminará aquellos registros inactivos durante un tiempo considerable.
+- Principio de integridad y confidencialidad: Tus datos serán tratados de tal manera que su seguridad, confidencialidad e integridad esté garantizada. Debes saber que el Titular toma las precauciones necesarias para evitar el acceso no autorizado o uso indebido de los datos de sus usuarios por parte de terceros.
+Obtención de datos personales
+- Para navegar por www.lorenagrimal.com no es necesario que facilites ningún dato personal. Los casos en los que sí proporcionas tus datos personales son los siguientes:
 
 
-Suspendisse potenti. Donec tempor lorem ac massa commodo, a vehicula elit rhoncus. Nulla efficitur elit non nisl elementum, vel venenatis quam ornare. Curabitur eu eros nunc. Aliquam maximus nulla quis ex tincidunt, eget tincidunt ante imperdiet. Sed congue elit vitae ipsum rhoncus, eget porttitor libero convallis. Curabitur suscipit mi nulla, sit amet ullamcorper sem semper in.
+Al inscribirte en un formulario de suscripción o un boletín que el Titular gestiona con Calendly.
 
+## Tus derechos
+El Titular te informa que sobre tus datos personales tienes derecho a:
 
-Duis non imperdiet enim. Morbi neque turpis, suscipit fermentum dui sit amet, sodales tincidunt nibh. Donec elit lorem, aliquam eu malesuada ut, sagittis id diam. Praesent tincidunt laoreet velit, ut vulputate nibh ultrices sit amet. Sed ut lacinia nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris congue accumsan dui a imperdiet. Nunc et magna sagittis nulla eleifend pharetra. Ut ac est et leo maximus imperdiet. Quisque fermentum tincidunt lacus, vitae hendrerit nulla interdum vitae. Vivamus accumsan sagittis sodales. Praesent consectetur arcu tempor dolor porttitor ornare. Pellentesque maximus, mauris id dictum fringilla, lectus mi malesuada lectus, sed sagittis mi nunc in nunc.
+- Solicitar una rectificación o la cancelación.
+- Solicitar la limitación de su tratamiento.
+- Oponerte al tratamiento.
+- Solicitar la portabilidad de tus datos.
 
+El ejercicio de estos derechos es personal y por tanto debe ser ejercido directamente por el interesado, solicitándolo directamente al Titular, lo que significa que cualquier cliente, suscriptor o colaborador que haya facilitado sus datos en algún momento puede dirigirse al Titular y pedir información sobre los datos que tiene almacenados y cómo los ha obtenido, solicitar la rectificación de los mismos, solicitar la portabilidad de sus datos personales, oponerse al tratamiento, limitar su uso o solicitar la cancelación de esos datos en los ficheros del Titular.
 
-Nam consectetur risus mauris, ut molestie augue ullamcorper eu. Praesent eget diam mauris. Mauris pulvinar interdum lectus a malesuada. Pellentesque dignissim hendrerit nibh lobortis laoreet. Integer turpis justo, finibus ac dapibus sit amet, feugiat ac leo. Maecenas faucibus metus mauris, vel pharetra ante feugiat quis. Vestibulum accumsan pellentesque imperdiet. Curabitur at tristique nisi, nec volutpat sem. Phasellus scelerisque at ligula eget dignissim. Curabitur mattis ipsum dui, finibus efficitur mi lacinia sed. Nam viverra, nisl nec volutpat dictum, orci ligula luctus magna, ut finibus nibh elit vel risus.
+Para ejercitar tus derechos de acceso, rectificación, cancelación, portabilidad y oposición tienes que enviar un correo electrónico a lorena@lorenagrimal.com junto con la prueba válida en derecho como una fotocopia del D.N.I. o equivalente.
 
+Tienes derecho a la tutela judicial efectiva y a presentar una reclamación ante la autoridad de control, en este caso, la Agencia Española de Protección de Datos, si consideras que el tratamiento de datos personales que te conciernen infringe el Reglamento.
 
-Phasellus pharetra, diam at vehicula posuere, nibh nunc ultrices quam, a placerat est augue sed libero. Suspendisse gravida vel tortor ac porttitor. Nam in quam fringilla, lacinia lectus a, eleifend nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend non sapien sed auctor. Mauris bibendum posuere lacinia. Fusce tristique, sem sed fringilla mattis, ipsum neque commodo magna, nec consectetur velit diam ut mi.
+## Finalidad del tratamiento de datos personales
+Cuando te conectas al sitio Web para mandar un correo al Titular, te suscribes a su boletín o realizas una contratación, estás facilitando información de carácter personal de la que el responsable es el Titular. Esta información puede incluir datos de carácter personal como pueden ser tu dirección IP, nombre y apellidos, dirección física, dirección de correo electrónico, número de teléfono, y otra información. Al facilitar esta información, das tu consentimiento para que tu información sea recopilada, utilizada, gestionada y almacenada por superadmin.es , sólo como se describe en el Aviso Legal y en la presente Política de Privacidad.
+
+Los datos personales y la finalidad del tratamiento por parte del Titular es diferente según el sistema de captura de información:
+
+Para garantizar el cumplimiento de las condiciones recogidas en el Aviso Legal y en la ley aplicable. Esto puede incluir el desarrollo de herramientas y algoritmos que ayuden a este sitio Web a garantizar la confidencialidad de los datos personales que recoge.
+Para apoyar y mejorar los servicios que ofrece este sitio Web.
+Para analizar la navegación. El Titular recoge otros datos no identificativos que se obtienen mediante el uso de cookies que se descargan en tu ordenador cuando navegas por el sitio Web cuyas caracterísiticas y finalidad están detalladas en la Política de Cookies .
+Para gestionar las redes sociales. el Titular tiene presencia en redes sociales. Si te haces seguidor en las redes sociales del Titular el tratamiento de los datos personales se regirá por este apartado, así como por aquellas condiciones de uso, políticas de privacidad y normativas de acceso que pertenezcan a la red social que proceda en cada caso y que has aceptado previamente.
+Puedes consultar las políticas de privacidad de las principales redes sociales en estos enlaces:
+
+- Facebook
+- YouTube
+- Instagram
+- Clubhouse
+
+El Titular tratará tus datos personales con la finalidad de administrar correctamente su presencia en la red social, informarte de sus actividades, productos o servicios, así como para cualquier otra finalidad que las normativas de las redes sociales permitan.
+
+En ningún caso el Titular utilizará los perfiles de seguidores en redes sociales para enviar publicidad de manera individual.
+
+## Seguridad de los datos personales
+Para proteger tus datos personales, el Titular toma todas las precauciones razonables y sigue las mejores prácticas de la industria para evitar su pérdida, mal uso, acceso indebido, divulgación, alteración o destrucción de los mismos.
+
+La seguridad de tus datos está garantizada, ya que toman todas las medidas de seguridad necesarias para ello. Puedes consultar su política de privacidad para tener más información.
+
+## Contenido de otros sitios web
+Las páginas de este sitio Web pueden incluir contenido incrustado (por ejemplo, vídeos, imágenes, artículos, etc.). El contenido incrustado de otras web se comporta exactamente de la misma manera que si hubieras visitado la otra web.
+
+Estos sitios Web pueden recopilar datos sobre ti, utilizar cookies, incrustar un código de seguimiento adicional de terceros, y supervisar tu interacción usando este código.
+
+## Política de Cookies
+Para que este sitio Web funcione correctamente necesita utilizar cookies, que es una información que se almacena en tu navegador web.
+
+En la página Política de Cookies puedes consultar toda la información relativa a la política de recogida, la finalidad y el tratamiento de las cookies.
+
+## Legitimación para el tratamiento de datos
+La base legal para el tratamiento de tus datos es: el consentimiento.
+
+Para contactar con el Titular, suscribirte a un boletín o realizar comentarios en este sitio Web tienes que aceptar la presente Política de Privacidad.
+
+Categorías de datos personales
+Las categorías de datos personales que trata el Titular son:
+
+Datos identificativos.
+Conservación de datos personales
+Los datos personales que proporciones al Titular se conservarán hasta que solicites su supresión.
+
+## Destinatarios de datos personales
+
+Google Analytics es un servicio de analítica web prestado por Google, Inc., una compañía de Delaware cuya oficina principal está en 1600 Amphitheatre Parkway, Mountain View (California), CA 94043, Estados Unidos (“Google”). Encontrarás más información en: https://analytics.google.com
+Google Analytics utiliza “cookies”, que son archivos de texto ubicados en tu ordenador, para ayudar al Titular a analizar el uso que hacen los usuarios del sitio Web. La información que genera la cookie acerca del uso del sitio Web (incluyendo tu dirección IP) será directamente transmitida y archivada por Google en los servidores de Estados Unidos.
+DoubleClick by Google es un conjunto de servicios publicitarios proporcionado por Google, Inc., una compañía de Delaware cuya oficina principal está en 1600 Amphitheatre Parkway, Mountain View (California), CA 94043, Estados Unidos (“Google”).
+Encontrarás más información en: https://www.doubleclickbygoogle.com
+DoubleClick utiliza “cookies”, que son archivos de texto ubicados en tu ordenador y que sirven para aumentar la relevancia de los anuncios relacionados con tus búsquedas recientes. En la Política de privacidad de Google se explica cómo Google gestiona tu privacidad en lo que respecta al uso de las cookies y otra información.
+También puedes ver una lista de los tipos de cookies que utiliza Google y sus colaboradores y toda la información relativa al uso que hacen de cookies publicitarias.
+
+## Navegación Web
+Al navegar por www.lorenagrimal.com se pueden recoger datos no identificativos, que pueden incluir, la dirección IP, geolocalización, un registro de cómo se utilizan los servicios y sitios, hábitos de navegación y otros datos que no pueden ser utilizados para identificarte.
+
+El sitio Web utiliza los siguientes servicios de análisis de terceros:
+
+Google Analytics
+
+El Titular utiliza la información obtenida para obtener datos estadísticos, analizar tendencias, administrar el sitio, estudiar patrones de navegación y para recopilar información demográfica.
+
+## Exactitud y veracidad de los datos personales
+Te comprometes a que los datos facilitados al Titular sean correctos, completos, exactos y vigentes, así como a mantenerlos debidamente actualizados.
+
+Como Usuario del sitio Web eres el único responsable de la veracidad y corrección de los datos que remitas al sitio exonerando a el Titular de cualquier responsabilidad al respecto.
+
+## Aceptación y consentimiento
+Como Usuario del sitio Web declaras haber sido informado de las condiciones sobre protección de datos de carácter personal, aceptas y consientes el tratamiento de los mismos por parte de el Titular en la forma y para las finalidades indicadas en esta Política de Privacidad.
+
+## Revocabilidad
+Para ejercitar tus derechos de acceso, rectificación, cancelación, portabilidad y oposición tienes que enviar un correo electrónico a lorena@lorenagrimal.com junto con la prueba válida en derecho como una fotocopia del D.N.I. o equivalente.
+
+El ejercicio de tus derechos no incluye ningún dato que el Titular esté obligado a conservar con fines administrativos, legales o de seguridad.
+
+## Cambios en la Política de Privacidad
+El Titular se reserva el derecho a modificar la presente Política de Privacidad para adaptarla a novedades legislativas o jurisprudenciales, así como a prácticas de la industria.
+
+Estas políticas estarán vigentes hasta que sean modificadas por otras debidamente publicadas.

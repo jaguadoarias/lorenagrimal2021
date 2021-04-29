@@ -336,7 +336,6 @@ figure img {
 }
 .List li {
   display: flex;
-  align-items: center;
   margin: 1rem 0;
   line-height: 1.2;
   font-size: 2.2rem;
@@ -345,6 +344,7 @@ figure img {
   margin-right: 2rem;
   flex-shrink: 0;
   align-self: baseline;
+  stroke: var(--secondary);
 }
 
 
@@ -448,6 +448,10 @@ figure img {
   }
   .cols1-2 {
     grid-template-columns: 1fr 2fr;
+    gap: 5vw;
+  }
+  .cols1-3 {
+    grid-template-columns: 3fr 2fr;
     gap: 5vw;
   }
 }
