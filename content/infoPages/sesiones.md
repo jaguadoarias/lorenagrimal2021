@@ -5,7 +5,7 @@ title: Sesiones
 subtitle: Si hay algo que quieres modificar, si quieres dar el salto que llevas tiempo visualizando o encontrar esa visualización, es posible que no estés aquí por casualidad.
 featuredImage: https://ucarecdn.com/0b669fe7-3fa1-475c-be87-7627793d10ca/
 meta:
-  description: Sesiones de transformación con Lorena Grimal
+  description: Sesiones Individuales, Sesiones Grupales y Sesiones Estratégicas de transformación con Lorena Grimal
   title: Sesiones de transformación
 ---
 
