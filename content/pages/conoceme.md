@@ -14,7 +14,7 @@ meta:
     transformación a través de sesiones individuales, sesiones grupales,
     sesiones online para que alcances tu bienestar emocional con una metodología
     de mentoría efectiva basada en la terapia breve estratégica.
-  title: Lorena Grimal psicologia y mentoring
+  title: Conoceme
 section1: >-
   Estudié **psicología** y llevo más de 20 años trabajando en el ámbito clínico
   y en el ámbito empresarial y de recursos humanos, y esas vivencias las pongo a

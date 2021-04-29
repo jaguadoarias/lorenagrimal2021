@@ -6,6 +6,11 @@
   margin-bottom: 2.5rem;
 }
 
+.Content ol, .Content ul {
+  font-size: 2.2rem;
+  padding-left: 2rem;
+}
+
 .Content--Iframe {
   position: relative;
   padding-bottom: 56.25%;
