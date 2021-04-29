@@ -60,7 +60,7 @@ export const ConocemePageTemplate = ({
             </figure>
 
             <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
-              <button className="Button">Reserva tu Sesión de Diagnóstico Gratuita</button>
+              <button className="Button">Reserva tu Sesión Gratuita</button>
             </Link>
           </div>
 

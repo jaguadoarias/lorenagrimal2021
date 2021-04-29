@@ -76,10 +76,10 @@ export class Navigation extends Component {
           <ul className="Nav--Links">
             <NavLink to="/">Inicio</NavLink>
             <NavLink to="/sesiones/">Sesiones</NavLink>
-            <NavLink to="/reserva-sesion/">Reserva tu sesión</NavLink>
+            <NavLink to="/reserva-sesion/">Reserva Sesión Gratuita</NavLink>
             <NavLink to="/conoceme/">Conóceme</NavLink>
             {/* <NavLink to="/default/">Publicaciones</NavLink> */}
-            <NavLink to="/blog/">Blog</NavLink>
+            {/* <NavLink to="/blog/">Blog</NavLink> */}
           </ul>
           <button
             className="Button-blank Nav--MenuButton"

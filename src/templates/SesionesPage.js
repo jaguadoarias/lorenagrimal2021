@@ -31,14 +31,14 @@ export const SesionesPageTemplate = ({
             alt="Lorena Grimal - Sesiones"
           />
           <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
-            <button className="Button">Reserva tu Sesión de Diagnóstico Gratuita</button>
+            <button className="Button">Reserva tu Sesión Gratuita</button>
           </Link>
         </figure>
       </div>
       <div className="container">
         <ul class="List cols">
-          <li><Star color="#487E86" size="20" /> <strong>Mentorías Individuales</strong></li>
-          <li><Star color="#487E86" size="20" /> <strong>Mentorías Grupales</strong></li>
+          <li><Star color="#487E86" size="20" /> <strong>Sesiones Individuales</strong></li>
+          <li><Star color="#487E86" size="20" /> <strong>Sesiones Grupales</strong></li>
           <li><Star color="#487E86" size="20" /> <strong>Sesiones Estratégicas</strong></li>
         </ul>
         <p>En muchas ocasiones, recibo clientes con dolores físicos, que después de haber pasado por diferentes especialistas médicos, terminan llamando a mi puerta. Curiosamente la transformación física sucede cuando se realiza un cambio a otro nivel, ya sea familiar, laboral o mental.</p>

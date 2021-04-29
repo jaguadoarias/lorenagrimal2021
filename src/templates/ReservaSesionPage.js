@@ -1,6 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-
+import { Video, Calendar, Globe } from 'react-feather'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
@@ -27,6 +27,11 @@ export const ReservaSesionPageTemplate = ({
         <InlineWidget url="https://calendly.com/lorenagrimal" />
         <div>
           <Content source={body} />
+          <ul class="List List--only">
+            <li><Calendar /> Selecciona un día y una hora que estén disponibles</li>
+            <li><Video /> Ten instalado Zoom o Google Meet en tu dispositivo</li>
+            <li><Globe /> Revisa correctamente tu zona horaria</li>
+          </ul>
         </div>
       </div>
     </section>

@@ -12,7 +12,7 @@ export default () => (
           <ul>
             <li><Link to="/">Inicio</Link></li>
             <li><Link to="/sesiones/" aria-label="Navigation" role="button">Sesiones</Link></li>
-            <li><Link to="/reserva-sesion/" aria-label="Navigation" role="button">Reserva tu sesión</Link></li>
+            <li><Link to="/reserva-sesion/" aria-label="Navigation" role="button">Reserva Sesión Gratuita</Link></li>
             <li><Link to="/conoceme/" aria-label="Navigation" role="button">Conóceme</Link></li>
             <li><a href="/privacidad/" target="_blank">Privacidad</a></li>
             <li><a href="/cookies/" target="_blank">Cookies</a></li>
@@ -39,7 +39,7 @@ export default () => (
               </a>
             </li>
             <li>
-              <a href="mailto:lorena.grimal@gmail.com" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:lorena@lorenagrimal.com" target="_blank" rel="noopener noreferrer">
                 <Mail />
               </a>
             </li>
