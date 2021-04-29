@@ -61,6 +61,9 @@
     margin-top: 7rem;
     max-width: initial;
   }
+  .PageHeader-large .PageHeader--Title {
+    max-width: 80%;
+  }
   .PageHeader--Subtitle, .Sign {
     display: none;
   }

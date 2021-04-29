@@ -18,7 +18,7 @@ const PageHeader = ({
 }) => {
   if (large) className += ' PageHeader-large'
   return (
-    <div className={`PageHeader relative ${className} ${align}`}>
+    <div className={`PageHeader relative ${className} ${align ? align : ''}`}>
       {backgroundImage && (
         <Image
           background
