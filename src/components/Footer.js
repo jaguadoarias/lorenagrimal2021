@@ -10,7 +10,7 @@ export default () => (
       <div className="container">
         <nav>
           <ul>
-            <li><Link to="/">Inicio</Link></li>
+            {/* <li><Link to="/">Inicio</Link></li> */}
             <li><Link to="/sesiones/" aria-label="Navigation" role="button">Sesiones</Link></li>
             <li><Link to="/reserva-sesion/" aria-label="Navigation" role="button">Reserva Sesión Gratuita</Link></li>
             <li><Link to="/conoceme/" aria-label="Navigation" role="button">Conóceme</Link></li>
