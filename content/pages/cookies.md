@@ -25,7 +25,7 @@ Un script es un fragmento de código de programa que se utiliza para hacer que n
 Una baliza web (o una etiqueta de píxel) es una pequeña e invisible pieza de texto o imagen en un sitio web que se utiliza para monitorear el tráfico en un sitio web. Para ello, se almacenan varios datos sobre usted mediante web beacons.
 
 ### 5. Consentimiento
-Cuando visite nuestro sitio web por primera vez, le mostraremos una ventana emergente con una explicación sobre las cookies. Tan pronto como haga clic en “Guardar preferencias”, nos autoriza a utilizar las categorías de cookies y plug-ins que seleccionó en la ventana emergente, tal y como se describe en esta declaración de cookies. Usted puede desactivar el uso de cookies a través de su navegador, pero tenga en cuenta que es posible que nuestro sitio web ya no funcione correctamente.
+Cuando visite nuestro sitio web por primera vez, le mostraremos una ventana emergente con una explicación sobre las cookies. Tan pronto como haga clic en "Entendido", nos autoriza a utilizar las categorías de cookies y plug-ins que seleccionó en la ventana emergente, tal y como se describe en esta declaración de cookies. Usted puede desactivar el uso de cookies a través de su navegador, pero tenga en cuenta que es posible que nuestro sitio web ya no funcione correctamente.
 5.1 Administración de configuración de consentimiento
 El usuario tiene el derecho de mostrar su conformidad a través de la prestación del consentimiento que solicitaremos al visitar nuestra web.
 Dicho consentimiento podrá ser modificado en todo momento.
