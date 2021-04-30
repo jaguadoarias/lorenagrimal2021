@@ -16,15 +16,10 @@ meta:
     de mentoría efectiva basada en la terapia breve estratégica.
   title: Conoceme
 section1: >-
-  Estudié **psicología** y llevo más de 20 años trabajando en el ámbito clínico
-  y en el ámbito empresarial y de recursos humanos, y esas vivencias las pongo a
-  tu disposición.
+  Estudié **psicología** y llevo más de 20 años trabajando en el ámbito clínico y en el ámbito empresarial y de recursos humanos, y esas vivencias, aprendizajes, metodologías y estrategias, las pongo a tu disposición para acompañarte en el camino del éxito.
 
 
-  Estudié psicología y llevo más de 20 años trabajando en el ámbito clínico y en el ámbito empresarial y de recursos humanos, y esas vivencias, aprendizajes, metodologías y estrategias, las pongo a tu disposición para acompañarte en el camino del éxito.
-
-
-  *Percibo al individuo como un ser integral.* 
+  **Percibo al individuo como un ser integral.**
 
 
   > El éxito del proceso de transformación reside en el equilibrio emocional, biológico, social y laboral.
