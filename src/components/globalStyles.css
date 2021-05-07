@@ -134,6 +134,7 @@ blockquote {
 }
 .Content blockquote p {
   font-size: 3.2rem;
+  line-height: 1.2;
 }
 
 /* Utility Classes */
@@ -207,6 +208,7 @@ blockquote {
    font-weight: 400;
    color: var(--secondary);
    margin: 0 auto;
+   line-height: 1;
  }
 
 .section--hero {
@@ -233,6 +235,7 @@ blockquote {
 .section h2 {
   font-size: 2.4rem;
   position: relative;
+  line-height: 1.2;
 }
 
 .section p + h3 {
@@ -282,6 +285,7 @@ figure img {
 .section p {
   font-size: 2.2rem;
   margin-top: 1rem;
+  line-height: 1.5;
 }
 
 .clip-circle {
