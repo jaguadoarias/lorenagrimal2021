@@ -31,7 +31,7 @@ export const SesionesPageTemplate = ({
             alt="Lorena Grimal - Sesiones"
           />
           <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
-            <button className="Button">Reserva tu Sesión Gratuita</button>
+            <button className="Button">Reserva Sesión de diagnóstico</button>
           </Link>
         </figure>
       </div>
