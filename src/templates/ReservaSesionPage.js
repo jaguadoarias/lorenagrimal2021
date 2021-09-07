@@ -27,7 +27,7 @@ export const ReservaSesionPageTemplate = ({
         <InlineWidget url="https://calendly.com/lorenagrimal" />
         <div>
           <Content source={body} />
-          <ul class="List List--only">
+          <ul className="List List--only">
             <li><Calendar /> Selecciona un día y una hora que estén disponibles</li>
             <li><Video /> Ten instalado Zoom o Google Meet en tu dispositivo</li>
             <li><Globe /> Revisa correctamente tu zona horaria</li>

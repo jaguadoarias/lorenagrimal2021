@@ -1,5 +1,6 @@
 .calendly-inline-widget {
   /* height: 440px !important; */
+  margin-bottom: 1vw;
 }
 
 @media (min-width: 1024px) {
