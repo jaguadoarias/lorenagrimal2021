@@ -1,8 +1,8 @@
 ---
 template: HomePage
 slug: 
-subheading: Lorena Grimal
-title: Mentoring y psicología para transformar mentes.
+subheading: Te enseño a construir una mente poderosa para alcanzar el éxito.
+title: 'Psicología positiva que rompe tus creencias limitantes.'
 featuredImage: 'https://ucarecdn.com/8a7f5d79-f12c-4c51-bbe0-903a19aec28d/'
 subtitle: 
 meta:
