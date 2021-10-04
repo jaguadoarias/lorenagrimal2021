@@ -132,7 +132,8 @@ blockquote {
   text-align: center;
   font-family: var(--font-secondary);
 }
-.Content blockquote p {
+.Content blockquote p,
+.container blockquote p {
   font-size: 3.2rem;
   line-height: 1.2;
 }

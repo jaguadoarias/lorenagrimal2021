@@ -77,7 +77,7 @@ export default ({ children, meta, title }) => {
             <Header subNav={subNav} />
 
             {children}
-            <div class="cf-26159-area-79633"></div>    
+            <div className="cf-26159-area-79633"></div>    
             <Footer />
           </>
         )

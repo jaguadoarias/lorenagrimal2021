@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import { Star } from 'react-feather'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
+import { Check } from 'react-feather'
 import CookieConsent from 'react-cookie-consent'
 
 // Export Template for use in CMS preview
@@ -11,7 +11,10 @@ export const SesionesPageTemplate = ({
   title,
   subtitle,
   featuredImage,
-  body
+  body,
+  video,
+  videoPoster,
+  videoTitle,
 }) => (
   <main className="SesionesPage">
     <PageHeader
@@ -28,24 +31,76 @@ export const SesionesPageTemplate = ({
         <figure>
           <img
             src="https://ucarecdn.com/e9defa5e-8546-408d-931b-5fe23fbc75c1/"
-            alt="Lorena Grimal - Sesiones"
+            alt="Lorena Grimal - Sesiones individuales"
           />
-          <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
-            <button className="Button">Reserva Sesión de diagnóstico</button>
-          </Link>
         </figure>
       </div>
       <div className="container">
-        <ul class="List cols">
-          <li><Star color="#487E86" size="20" /> <strong>Sesiones Individuales</strong></li>
-          <li><Star color="#487E86" size="20" /> <strong>Sesiones Grupales</strong></li>
-          <li><Star color="#487E86" size="20" /> <strong>Sesiones Estratégicas</strong></li>
-        </ul>
-        <p>En muchas ocasiones, recibo clientes con dolores físicos, que después de haber pasado por diferentes especialistas médicos, terminan llamando a mi puerta. Curiosamente la transformación física sucede cuando se realiza un cambio a otro nivel, ya sea familiar, laboral o mental.</p>
-        <p>Las sesiones de transformación son muy estratégicas, con una absoluta implicación constante desde mi persona para tu persona.</p>
-        <p>Aprenderás a crear Planes de Acción estratégicos para lograr los objetivos de tu vida. Este aprendizaje lo vas a poder implementar en cualquier ámbito de tu vida, desde el plano laboral, pareja, familia, físico…</p>
-        <p>Mi experiencia de cambio y transformación es de 12 sesiones, con una metodología de éxito y orientada a cada individuo como ser único e independiente.</p>
-        <p>Llevo más de 20 años transformando personas, ahora es el momento de apostar por ti, es el momento de conocer los mecanismos internos que posees y sacarlos a la luz para descubrir y ofrecer tu mejor versión.</p>
+        <div className="Table-container">
+          <table className="Table">
+            <tr>
+              <th className="thEmpty"></th>
+              <th className="thLeft">Lorena Grimal</th>
+              <th className="thRight">Otras terapias previas</th>
+            </tr>
+            <tr>
+              <td><strong>Duración</strong></td>
+              <td><Check size={18} /> Meses</td>
+              <td>Años</td>
+            </tr>
+            <tr>
+              <td><strong>Frecuencia</strong></td>
+              <td><Check size={18} /> Diaria</td>
+              <td>Semanal/quincenal</td>
+            </tr>
+            <tr>
+              <td><strong>Cohesión al tratamiento</strong></td>
+              <td><Check size={18} /> 100% de finalización</td>
+              <td>Alrededor del 60%</td>
+            </tr>
+            <tr>
+              <td><strong>Coste</strong></td>
+              <td><Check size={18} /> Menos de 50 euros al día</td>
+              <td>Más de 50 euros al día</td>
+            </tr>
+            <tr>
+              <td><strong>Disponibilidad del terapeuta</strong></td>
+              <td><Check size={18} /> 24 horas al día 7 días de la semana</td>
+              <td>El día de la sesión</td>
+            </tr>
+            <tr>
+              <td><strong>Modelos teóricos</strong></td>
+              <td><Check size={18} /> Más de 8 modelos teóricos a tu disposición</td>
+              <td>Entre 1 y tres</td>
+            </tr>
+            <tr>
+              <td><strong>Apoyo extra</strong></td>
+              <td><Check size={18} /> Formación grupal Mentes Poderosas GRATIS</td>
+              <td>Ninguno</td>
+            </tr>
+            <tr>
+              <td><strong>Bibliografía</strong></td>
+              <td><Check size={18} /> Regalo libro 
+  <strong> Diario de emociones</strong>
+              </td>
+              <td>Ninguno</td>
+            </tr>
+            <tr>
+              <td><strong>Pilares a analizar y trabajar</strong></td>
+              <td><Check size={18} /> Psicológico, social, laboral y biológico</td>
+              <td>Normalmente solo psicológico</td>
+            </tr>          
+          </table>
+        </div>
+        <blockquote><p>El bienestar es increíble, pero no lo digo yo, lo dicen las personas que trabajan conmigo.</p></blockquote>
+        <div className="taCenter">
+          <iframe className="videoYoutube" src="https://www.youtube-nocookie.com/embed/qTRwBkwZaaI?controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>Si quieres convertirte en el próximo caso de éxito como Laura...</p>
+          <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
+            <button className="Button">Reserva sesión de diagnóstico</button>
+          </Link>
+        </div>
+        
       </div>
     </section>
   </main>
@@ -71,6 +126,9 @@ export const pageQuery = graphql`
         title
         subtitle
         featuredImage
+        video
+        videoPoster
+        videoTitle
       }
     }
   }

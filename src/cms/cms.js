@@ -7,6 +7,7 @@ import { ConocemePageTemplate } from '../templates/ConocemePage'
 import { PrivacidadPageTemplate } from '../templates/PrivacidadPage'
 import { CookiesPageTemplate } from '../templates/CookiesPage'
 import { ReservaSesionPageTemplate } from '../templates/ReservaSesionPage'
+import { MentesPoderosasPageTemplate } from '../templates/MentesPoderosasPage'
 import { SesionesPageTemplate } from '../templates/SesionesPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
@@ -40,7 +41,10 @@ CMS.registerPreviewTemplate('cookies-page', ({ entry }) => (
 CMS.registerPreviewTemplate('reserva-sesion-page', ({ entry }) => (
   <ReservaSesionPageTemplate {...entry.toJS().data} />
 ))
-CMS.registerPreviewTemplate('infoPages', ({ entry }) => (
+CMS.registerPreviewTemplate('mentes-poderosas-page', ({ entry }) => (
+  <MentesPoderosasPageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('sesiones-individuales', ({ entry }) => (
   <SesionesPageTemplate {...entry.toJS().data} />
 ))
 CMS.registerPreviewTemplate('blog-page', ({ entry }) => (

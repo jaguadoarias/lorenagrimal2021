@@ -64,7 +64,10 @@
   .PageHeader-large .PageHeader--Title {
     max-width: 80%;
   }
-  .PageHeader--Subtitle, .Sign {
+  .PageHeader--Subtitle {
+    max-width: initial;
+  }
+  .Sign {
     display: none;
   }
   .PageHeader-large .BackgroundImage {

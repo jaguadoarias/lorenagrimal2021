@@ -1,18 +1,21 @@
 ---
 template: SesionesPage
-slug: sesiones
-title: Sesiones
-subtitle: Si hay algo que quieres modificar, si quieres dar el salto que llevas tiempo visualizando o encontrar esa visualización, es posible que no estés aquí por casualidad.
+slug: programas/sesiones-individuales
+title: Sesiones individuales
+subtitle: Sesiones de transformación y cambio que te enseñan a dejar de sufrir y comenzar a vivir como tú quieres.
 featuredImage: https://ucarecdn.com/0b669fe7-3fa1-475c-be87-7627793d10ca/
+video: https://youtu.be/MWghdwmazuQ
+videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
+videoTitle: El bienestar es increíble, pero no lo digo yo, lo dicen las personas que trabajan conmigo.
 meta:
-  description: Sesiones Individuales, Sesiones Grupales y Sesiones Estratégicas de transformación con Lorena Grimal
+  description: Sesiones individuales de transformación y cambio que te enseñan a dejar de sufrir y comenzar a vivir como tú quieres.
   title: Sesiones de transformación
 ---
 
-Hay momentos de nuestra vida que sentimos que queremos conectar con nosotros, con nuestra esencia y comenzar un proceso de transformación.
+### Quiero convertirme en tu última terapeuta.
 
-Te invito a que conectes conmigo, a que tengamos una sesión en la que me permitas hacer un diagnóstico biológico, psicológico y socio-laboral y analicemos en qué momento vital estás.
+Si, así es. Llevo más de 20 años trabajando con personas, y me he convertido en su último terapeuta, no han necesitado volver a buscar a otro psicólogo para dejar de sufrir y comenzar a vivir.
 
-El camino es maravilloso, disfrutarás de cada sesión, de cada minuto, de cada salto.
+> Ahora es tu momento.
 
-Mi visión del ser humano es absolutamente integradora, somos seres con equilibrio biológico, psicológico y socio-laboral. Por tanto, dentro de las sesiones individuales, parto del análisis de todos estos aspectos. La transformación ocurre a todos los niveles.
+Te ofrezco un entrenamiento en gestión emocional rápido, efectivo y totalmente personalizado a través de un proceso terapéutico de última generación.

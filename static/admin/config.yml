@@ -206,7 +206,7 @@ collections: # A list of collections the CMS should be able to edit
     label: Info Page
     editor:
       preview: true
-    folder: content/infoPages
+    folder: content/sesiones-individuales
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     create: true # Allow users to create new documents in this collection
     fields:
@@ -219,6 +219,9 @@ collections: # A list of collections the CMS should be able to edit
       - { label: Slug, name: slug, widget: string }
       - { label: Title, name: title, widget: string }
       - { label: Featured Image, name: featuredImage, widget: image }
+      - { name: video, label: video, widget: file }
+      - { name: videoPoster, label: videoPoster, widget: image }
+      - { label: videoTitle, name: videoTitle, widget: string }
       - { label: Body, name: body, widget: markdown }
       - label: 'Meta'
         required: false

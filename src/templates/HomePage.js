@@ -91,7 +91,7 @@ Estrategia, mente y capacitación.</p>
             <li><CheckCircle color="#487E86" size="20" /> Te ofrezco mi apoyo constante en tu día a día durante la duración del proceso.</li>
           </ul>
           <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
-            <button className="Button">Reserva Sesión de diagnóstico</button>
+            <button className="Button">Reserva sesión de diagnóstico</button>
           </Link>
         </div>
         <figure>
