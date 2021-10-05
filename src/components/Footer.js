@@ -12,7 +12,7 @@ export default () => (
           <ul>
             {/* <li><Link to="/">Inicio</Link></li> */}
             <li><Link to="/programas/sesiones-individuales/" aria-label="Navigation" role="button">Sesiones individuales</Link></li>
-            {/* <li><Link to="/programas/mentes-poderosas/" aria-label="Navigation" role="button">Mentes Poderosas</Link></li> */}
+            <li><Link to="/programas/mentes-poderosas/" aria-label="Navigation" role="button">Mentes Poderosas</Link></li>
             <li><Link to="/reserva-sesion/" aria-label="Navigation" role="button">Reserva sesión</Link></li>
             <li><Link to="/conoceme/" aria-label="Navigation" role="button">Conóceme</Link></li>
             <li><a href="/privacidad/" target="_blank">Privacidad</a></li>

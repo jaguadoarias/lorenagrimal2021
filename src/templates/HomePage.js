@@ -16,7 +16,7 @@ export const HomePageTemplate = ({ title, subheading, subtitle, featuredImage, b
       subheading={subheading}
       subtitle={subtitle}
       backgroundImage={featuredImage}
-      cta="Reserva Sesión de diagnóstico"
+      cta="Reserva sesión de diagnóstico"
     />
 
     <section className="section">

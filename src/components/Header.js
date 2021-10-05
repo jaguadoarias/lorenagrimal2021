@@ -134,9 +134,9 @@ export class Navigation extends Component {
                   <NavLink to="/programas/sesiones-individuales/" className="Nav--GroupLink">
                     Sesiones individuales
                   </NavLink>
-                  {/* <NavLink to="/programas/mentes-poderosas/" className="Nav--GroupLink">
+                  <NavLink to="/programas/mentes-poderosas/" className="Nav--GroupLink">
                     Mentes Poderosas 2.0
-                  </NavLink> */}
+                  </NavLink>
                   {/* <NavLink to="/blog/" className="Nav--GroupLink">
                     Psicontransformación
                   </NavLink> */}

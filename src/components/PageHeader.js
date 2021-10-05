@@ -14,7 +14,8 @@ const PageHeader = ({
   large,
   align,
   className = '',
-  cta
+  cta,
+  anchor
 }) => {
   if (large) className += ' PageHeader-large'
   return (
@@ -49,9 +50,10 @@ const PageHeader = ({
               {cta}
             </button>
           </Link>
-          
         )}
-         
+        {anchor && (
+          <a href={`#${anchor}`} className="Button" title="Inscríbete a la formación">Inscríbete a la formación</a>
+        )}
       </div>
     </div>
   )

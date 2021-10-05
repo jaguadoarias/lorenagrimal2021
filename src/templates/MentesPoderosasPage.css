@@ -1,3 +1,86 @@
 .List {
   margin-top: 46px;
 }
+
+.section--separator .List {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  margin: 0;
+}
+
+.Advantages {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  margin: 3vw 0;
+ }
+ .Advantages li {
+  min-width: 210px;
+  flex: 1;
+  background-color: var(--lightGrey);
+  border-radius: var(--borderRadius) 0;
+  padding: 16px;
+ }
+ .Advantages li h3 {
+   margin: 16px 0 24px;
+   line-height: 1;
+ }
+ 
+ .PriceList {
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   min-height: 200px;
+   justify-content: space-between;
+ }
+ .PriceList del {
+   color: var(--darkGrey);
+ }
+ .price {
+   color: var(--primaryLight);
+   font-size: 3rem;
+ }
+ .caption {
+   color: var(--midDarkGrey);
+   margin-bottom: 24px;
+ }
+
+.priceTitle {
+  text-align: center;
+}
+
+.payments {
+  margin-bottom: 6vw;
+  padding-top: 3vw;
+}
+.payments h3 {
+  font-weight: 400;
+  color: var(--darkGrey);
+  margin-top: 8px;
+}
+
+.logoStripe {
+  width: 140px;
+  margin: 8px auto;
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .priceTitle {
+    text-align: initial;
+  }
+  .payments {
+    margin-bottom: 0;
+  }
+  .List--inline {
+    text-align: center;
+  }
+  .logoStripe {
+    width: 140px;
+    margin: 8px 0;
+    display: inline;
+  }
+}

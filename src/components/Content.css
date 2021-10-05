@@ -36,7 +36,7 @@
 }
 
 .Table {
-  --borderTableColor: #ebebeb;
+  --borderTableColor:var(--midGrey);
   border-collapse: collapse;
   margin: 3vw 0;
   width: 100%;
@@ -55,7 +55,7 @@
 }
 
 .Table td {
-  background-color: #fafafa;
+  background-color:var(--lightGrey);
 }
 
 .Table td svg {
@@ -82,6 +82,17 @@
 .videoYoutube {
   width: 100%;
   height: 315px;
+}
+
+.Box {
+  background-color: var(--lightGrey);
+  border-radius: var(--borderRadius);
+  padding: 24px;
+  margin-bottom: 32px;
+}
+.Box h3 {
+  text-align: center;
+  text-transform: uppercase;
 }
 
 
