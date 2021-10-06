@@ -236,7 +236,8 @@ blockquote {
   text-shadow: 1px 1px 1px var(--primary);
 }
 .section h2 {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
+  margin: 2rem 0 3rem;
   position: relative;
   line-height: 1.2;
 }
@@ -305,6 +306,7 @@ figure img {
   /* display: inline-block; */
   padding: 1rem 3rem .8rem;
   border: none;
+  text-align: center;
   transition: all 0.2s ease;
   cursor: pointer;
   border-radius: var(--borderRadius);

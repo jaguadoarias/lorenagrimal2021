@@ -4,7 +4,6 @@
 
 .section--separator .List {
   display: inline-block;
-  width: 50%;
   vertical-align: top;
   margin: 0;
 }
@@ -82,5 +81,11 @@
     width: 140px;
     margin: 8px 0;
     display: inline;
+  }
+}
+
+@media (min-width: 600px) {
+  .section--separator .List {
+    width: 50%;
   }
 }

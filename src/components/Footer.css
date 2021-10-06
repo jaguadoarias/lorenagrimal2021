@@ -1,6 +1,6 @@
 .footer {
   padding: 3rem 0;
-  background: var(--primary);
+  background: var(--darkGrey);
   font-size: 1.6rem;
   color: white;
 }

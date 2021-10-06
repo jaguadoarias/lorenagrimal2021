@@ -12,7 +12,7 @@ meta:
   title: Sesiones de transformación
 ---
 
-### Quiero convertirme en tu última terapeuta.
+## Quiero convertirme en tu última terapeuta.
 
 Si, así es. Llevo más de 20 años trabajando con personas, y me he convertido en su último terapeuta, no han necesitado volver a buscar a otro psicólogo para dejar de sufrir y comenzar a vivir.
 
