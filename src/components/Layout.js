@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import ReactPixel from 'react-facebook-pixel'
 import { StaticQuery, graphql } from 'gatsby'
 import Meta from './Meta'
 import Header from './Header'
@@ -7,6 +8,12 @@ import Footer from './Footer'
 
 import 'modern-normalize/modern-normalize.css'
 import './globalStyles.css'
+
+const advancedMatching = { em: 'lorena.grimal@gmail.com' }; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
+const options = {
+  autoConfig: true, // set pixel's autoConfig. More info: https://developers.facebook.com/docs/facebook-pixel/advanced/
+  debug: false, // enable logs
+};
 
 export default ({ children, meta, title }) => {
   return (
@@ -61,6 +68,8 @@ export default ({ children, meta, title }) => {
               <link rel="preconnect" href="https://fonts.gstatic.com" />              
               <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet"></link>
               <script async src="https://js.convertflow.co/production/websites/26159.js"></script>
+              {ReactPixel.init('427346455568715', advancedMatching, options)}
+              {ReactPixel.pageView()}
             </Helmet>
 
             <Meta
