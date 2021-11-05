@@ -8,6 +8,18 @@ import Footer from './Footer'
 import 'modern-normalize/modern-normalize.css'
 import './globalStyles.css'
 
+function FacebookPixel() {
+  React.useEffect(() => {
+    import("react-facebook-pixel")
+      .then((x) => x.default)
+      .then((ReactPixel) => {
+        ReactPixel.init('427346455568715');
+        ReactPixel.pageView();
+      });
+  });
+  return null;
+}
+
 export default ({ children, meta, title }) => {
   
   return (
@@ -62,8 +74,9 @@ export default ({ children, meta, title }) => {
               <link rel="preconnect" href="https://fonts.gstatic.com" />              
               <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet"></link>
               <script async src="https://js.convertflow.co/production/websites/26159.js"></script>
+              
             </Helmet>
-
+            <FacebookPixel />
             <Meta
               googleTrackingId={googleTrackingId}
               absoluteImageUrl={
@@ -80,23 +93,6 @@ export default ({ children, meta, title }) => {
             {children}
             <div className="cf-26159-area-79633"></div>    
             <Footer />
-            <script
-                dangerouslySetInnerHTML={{ __html: `
-                !function(f,b,e,v,n,t,s)
-                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                n.queue=[];t=b.createElement(e);t.async=!0;
-                t.src=v;s=b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t,s)}(window, document,'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-                fbq('init', '427346455568715');
-                fbq('track', 'PageView');
-                `}}
-              />
-              <noscript>{`<img height="1" width="1" style="display:none"
-              src="https://www.facebook.com/tr?id=427346455568715&ev=PageView&noscript=1"
-              />`}</noscript>
           </>
         )
       }}
