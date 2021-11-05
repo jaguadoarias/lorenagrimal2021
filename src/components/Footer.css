@@ -37,8 +37,7 @@
 }
 
 .footer a:hover {
-  text-decoration: none;
-  color: var(--primaryLight); 
+  text-decoration: underline;
 }
 
 .footer a:hover svg:not(.Logo) {
