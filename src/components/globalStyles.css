@@ -303,8 +303,8 @@ figure img {
   text-decoration: none;
   font-weight: 400;
   font-size: 2rem;
-  /* display: inline-block; */
-  padding: 1rem 3rem .8rem;
+  display: inline-block;
+  padding: 1rem 3rem;
   border: none;
   text-align: center;
   transition: all 0.2s ease;
@@ -313,7 +313,7 @@ figure img {
   align-self: flex-start;
   margin-top: 3rem;
   box-shadow: 0 2px 25px 0 rgb(84 131 157 / 20%);
-  line-height: 1.15;
+  line-height: 1;
 }
 
 .Button:hover {

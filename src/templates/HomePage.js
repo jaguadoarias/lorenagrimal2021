@@ -90,8 +90,8 @@ Estrategia, mente y capacitación.</p>
             <li><CheckCircle color="#487E86" size="20" /> Alineando tu parte biológica, psicológica, social y laboral.</li>
             <li><CheckCircle color="#487E86" size="20" /> Te ofrezco mi apoyo constante en tu día a día durante la duración del proceso.</li>
           </ul>
-          <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
-            <button className="Button">Reserva sesión de diagnóstico</button>
+          <Link to="/reserva-sesion/" aria-label="Navigation" role="button" className="Button">
+            Reserva sesión de diagnóstico
           </Link>
         </div>
         <figure>

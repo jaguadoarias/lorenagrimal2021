@@ -41,14 +41,8 @@ const PageHeader = ({
           </svg>
         )}
         {cta && (
-          <Link to="/reserva-sesion/" aria-label="Navigation" role="button">
-            <button
-              className="Button"
-              tabIndex={0}
-              aria-label={cta}
-            >
+          <Link to="/reserva-sesion/" aria-label={cta} role="button" className="Button">
               {cta}
-            </button>
           </Link>
         )}
         {anchor && (
