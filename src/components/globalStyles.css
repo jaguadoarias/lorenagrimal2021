@@ -280,6 +280,8 @@ blockquote {
 }
 
 figure img {
+  height: auto;
+  width: 100%;
   max-width: 100%;
   box-shadow: 0 0 0px 2px var(--secondary);
   border-radius: 30px;

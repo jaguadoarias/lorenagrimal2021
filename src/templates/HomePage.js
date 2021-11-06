@@ -99,6 +99,8 @@ Estrategia, mente y capacitación.</p>
             src="https://ucarecdn.com/a027ac63-a1c7-4e1d-9347-b273c225aa3b/"
             alt="Lorena Grimal - Cree, Crea y Confía"
             className="clip-circle"
+            width="585"
+            height="389"
           />
         </figure>
       </div>

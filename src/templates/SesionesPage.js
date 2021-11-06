@@ -39,7 +39,7 @@ export const SesionesPageTemplate = ({
         <div className="Table-container">
           <table className="Table">
             <tr>
-              <th className="thEmpty"></th>
+              <th className="thEmpty">&nbsp;</th>
               <th className="thLeft">Lorena Grimal</th>
               <th className="thRight">Otras terapias previas</th>
             </tr>
