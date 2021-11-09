@@ -72,6 +72,7 @@ export default ({ children, meta, title }) => {
               }}
             >
               {title}
+              <meta name="facebook-domain-verification" content="g3ttw257welovdr3m3yf88vzr8kj9x" />
               <link href="https://ucarecdn.com" rel="preconnect" crossorigin />
               <link rel="dns-prefetch" href="https://ucarecdn.com" />
               <link rel="preconnect" href="https://fonts.gstatic.com" />              
