@@ -16,7 +16,7 @@ export const HomePageTemplate = ({ title, subheading, subtitle, featuredImage, b
       subheading={subheading}
       subtitle={subtitle}
       backgroundImage={featuredImage}
-      cta="Reserva sesión de diagnóstico"
+      cta="Reserva sesión ahora"
     />
 
     <section className="section">
@@ -91,7 +91,7 @@ Estrategia, mente y capacitación.</p>
             <li><CheckCircle color="#487E86" size="20" /> Te ofrezco mi apoyo constante en tu día a día durante la duración del proceso.</li>
           </ul>
           <Link to="/reserva-sesion/" aria-label="Navigation" role="button" className="Button">
-            Reserva sesión de diagnóstico
+            Reserva sesión ahora
           </Link>
         </div>
         <figure>

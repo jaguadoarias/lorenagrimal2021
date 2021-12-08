@@ -96,8 +96,8 @@ export const SesionesPageTemplate = ({
         <div className="taCenter">
           <iframe className="videoYoutube" src="https://www.youtube-nocookie.com/embed/qTRwBkwZaaI?controls=0&amp;start=3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <p>Si quieres convertirte en el próximo caso de éxito como Laura...</p>
-          <Link to="/reserva-sesion/" aria-label="Reserva sesión de diagnóstico" role="button" className="Button">
-            Reserva sesión de diagnóstico
+          <Link to="/reserva-sesion/" aria-label="Reserva sesión ahora" role="button" className="Button">
+            Reserva sesión ahora
           </Link>
         </div>
         

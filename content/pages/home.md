@@ -1,13 +1,13 @@
 ---
 template: HomePage
 slug: 
-subheading: Te enseño a construir una mente poderosa para alcanzar el éxito.
-title: 'Psicología positiva que rompe tus creencias limitantes.'
+subheading: Cambia tu vida en menos de 12 sesiones.
+title: 'Psicóloga experta en terapias de alto impacto.'
 featuredImage: 'https://ucarecdn.com/8a7f5d79-f12c-4c51-bbe0-903a19aec28d/'
 subtitle: 
 meta:
-  description: Lorena Grimal psicologia y mentoring, te acompaña en procesos de transformación a través de sesiones individuales, sesiones grupales, sesiones online para que alcances tu bienestar emocional con una metodología de mentoría efectiva basada en la terapia breve estratégica.
-  title:
+  description: Lorena Grimal psicóloga experta en terapias de alto impacto, te acompaña en procesos de transformación a través de sesiones individuales, sesiones grupales, sesiones online para que alcances tu bienestar emocional con una metodología de mentoría efectiva basada en la terapia breve estratégica.
+  title: Lorena Grimal | Psicóloga experta en terapias de alto impacto.
 ---
 
 ## Alcanza tus objetivos
