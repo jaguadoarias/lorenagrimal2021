@@ -3,7 +3,7 @@ template: ReservaSesionPage
 slug: reserva-sesion
 title: Reserva sesión
 featuredImage: https://ucarecdn.com/803b7e93-f2ab-4e7e-b8e8-9c9828fa0b89/
-subtitle: Si quieres transformar tu vida, el momento es ahora.
+subtitle: ¿Quieres descubrir en una sola sesión el camino de tu transformación?
 meta:
   description: Reserva tu sesión de diagnóstico con Lorena Grimal
   title: Reserva sesión de diagnóstico
