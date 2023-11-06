@@ -50,6 +50,11 @@
   fill: #fff;
 }
 
+.footer .Logo {
+  margin: 8px auto;
+  width: 160px;
+}
+
 .footer small {
   font-size: 100%;
 }

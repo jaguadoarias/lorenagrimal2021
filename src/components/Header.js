@@ -107,7 +107,7 @@ export class Navigation extends Component {
             aria-label="Navigation"
             role="button"
           >
-            <Logo isPositive />
+            <Logo isNegative />
           </Link>
           <ul className="Nav--Links">
             <NavLink to="/">Inicio</NavLink>
