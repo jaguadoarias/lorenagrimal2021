@@ -8,7 +8,7 @@ import './Form.css'
 class Form extends React.Component {
   static defaultProps = {
     name: 'Contact Form',
-    subject: 'Contacto Web', // optional subject of the notification email
+    subject: '', // optional subject of the notification email
     action: '',
     successMessage: 'Gracias por ponerte en conracto conmigo',
     errorMessage:
