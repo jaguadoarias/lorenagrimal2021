@@ -1,8 +1,8 @@
 ---
 template: HomePage
 slug: 
-subheading: Cambia tu vida en menos de 12 sesiones.
-title: 'Psicóloga experta en terapias de alto impacto.'
+subheading: Resuelve tu crisis en tiempo récord
+title: 'Psicóloga experta en terapias de alto impacto'
 featuredImage: 'https://ucarecdn.com/8a7f5d79-f12c-4c51-bbe0-903a19aec28d/'
 subtitle: 
 meta:
