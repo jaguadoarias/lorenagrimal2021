@@ -97,7 +97,11 @@ export class Navigation extends Component {
     const isBlogPage = this.props.location.pathname.includes('posts');
 
     return (
-      <header className={`Header ${active ? 'Header-active' : ''} ${isBlogPage ? 'Header-fixed' : ''}`}>
+      <header
+        className={`Header ${active ? 'Header-active' : ''} ${
+          isBlogPage ? 'Header-fixed' : ''
+        }`}
+      >
         <nav className="Nav container">
           <Link
             to="/"
@@ -131,10 +135,16 @@ export class Navigation extends Component {
                 Programas
                 <ChevronDown size={18} />
                 <ul className="Nav--GroupLinks">
-                  <NavLink to="/programas/sesiones-individuales/" className="Nav--GroupLink">
+                  <NavLink
+                    to="/programas/sesiones-individuales/"
+                    className="Nav--GroupLink"
+                  >
                     Sesiones individuales
                   </NavLink>
-                  <NavLink to="/programas/mentes-poderosas/" className="Nav--GroupLink">
+                  <NavLink
+                    to="/programas/mentes-poderosas/"
+                    className="Nav--GroupLink"
+                  >
                     Mentes Poderosas 2.0
                   </NavLink>
                   {/* <NavLink to="/blog/" className="Nav--GroupLink">
@@ -146,11 +156,10 @@ export class Navigation extends Component {
             <NavLink to="/conoceme/">Conóceme</NavLink>
             {/* <NavLink to="/conoceme/">Cursos</NavLink> */}
             {/* <NavLink to="/blog/">Blog</NavLink> */}
-            <NavLink to="/reserva-sesion/">Reserva sesión</NavLink>
-            
+            {/* <NavLink to="/reserva-sesion/">Reserva sesión</NavLink> */}
+
             {/* <NavLink to="/default/">Publicaciones</NavLink> */}
             {/* <NavLink to="/blog/">Blog</NavLink> */}
-            
           </ul>
           <button
             className="Button-blank Nav--MenuButton"
@@ -158,7 +167,11 @@ export class Navigation extends Component {
             tabIndex={0}
             aria-label="Navigation"
           >
-            {active ? <X size={40} color="#e2b33c" /> : <Menu size={40} color="#e2b33c" />}
+            {active ? (
+              <X size={40} color="#e2b33c" />
+            ) : (
+              <Menu size={40} color="#e2b33c" />
+            )}
           </button>
         </nav>
       </header>

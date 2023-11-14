@@ -161,14 +161,14 @@ export const HomePageTemplate = ({
                      proceso.
                    </li>
                  </ul>
-                 <Link
+                 {/* <Link
                    to="/reserva-sesion/"
                    aria-label="Navigation"
                    role="button"
                    className="Button"
                  >
                    Reserva sesión ahora
-                 </Link>
+                 </Link> */}
                </div>
                <figure>
                  <img
