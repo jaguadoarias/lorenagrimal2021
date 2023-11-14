@@ -20,37 +20,51 @@ class Form extends React.Component {
     disabled: false
   }
 
-  handleSubmit = e => {
-    e.preventDefault()
-    if (this.state.disabled) return
+  // handleSubmit = e => {
+  //   e.preventDefault()
+  //   if (this.state.disabled) return
 
-    const form = e.target
-    const data = serialize(form)
-    this.setState({ disabled: true })
-    fetch(form.action + '?' + stringify(data), {
-      method: 'POST'
+  //   const form = e.target
+  //   const data = serialize(form)
+  //   this.setState({ disabled: true })
+  //   fetch(form.action + '?' + stringify(data), {
+  //     method: 'POST'
+  //   })
+  //     .then(res => {
+  //       if (res.ok) {
+  //         return res
+  //       } else {
+  //         throw new Error('Network error')
+  //       }
+  //     })
+  //     .then(() => {
+  //       form.reset()
+  //       this.setState({
+  //         alert: this.props.successMessage,
+  //         disabled: false
+  //       })
+  //     })
+  //     .catch(err => {
+  //       console.error(err)
+  //       this.setState({
+  //         disabled: false,
+  //         alert: this.props.errorMessage
+  //       })
+  //     })
+  // }
+  handleSubmit = event => {
+    event.preventDefault()
+
+    const myForm = event.target
+    const formData = new FormData(myForm)
+
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams(formData).toString()
     })
-      .then(res => {
-        if (res.ok) {
-          return res
-        } else {
-          throw new Error('Network error')
-        }
-      })
-      .then(() => {
-        form.reset()
-        this.setState({
-          alert: this.props.successMessage,
-          disabled: false
-        })
-      })
-      .catch(err => {
-        console.error(err)
-        this.setState({
-          disabled: false,
-          alert: this.props.errorMessage
-        })
-      })
+      .then(() => console.log('Form successfully submitted'))
+      .catch(error => alert(error))
   }
 
   render() {
@@ -72,17 +86,17 @@ class Form extends React.Component {
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
           )}
-          
-            <label className="Form--Label">
-              <input
-                className="Form--Input Form--InputText"
-                type="text"
-                placeholder="Nombre"
-                name="firstname"
-                required
-              />
-              <span>Nombre</span>
-            </label>
+
+          <label className="Form--Label">
+            <input
+              className="Form--Input Form--InputText"
+              type="text"
+              placeholder="Nombre"
+              name="firstname"
+              required
+            />
+            <span>Nombre</span>
+          </label>
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
@@ -137,7 +151,9 @@ class Form extends React.Component {
             className="Button Form--SubmitButton"
             type="submit"
             disabled={this.state.disabled}
-          >Enviar</button>
+          >
+            Enviar
+          </button>
         </form>
       </Fragment>
     )
