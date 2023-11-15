@@ -10,9 +10,9 @@ class Form extends React.Component {
     name: 'contact-form',
     subject: '', // optional subject of the notification email
     action: '',
-    successMessage: 'Gracias por ponerte en conracto conmigo',
+    successMessage: 'Gracias por ponerte en contacto conmigo',
     errorMessage:
-      'There is a problem, your message has not been sent, please try contacting us via email'
+      'Ha habido un problema con el envio de tu mensaje, por favor intenta contactarme por email.'
   }
 
   state = {
@@ -52,20 +52,6 @@ class Form extends React.Component {
         })
       })
   }
-  // handleSubmit = event => {
-  //   event.preventDefault()
-
-  //   const myForm = event.target
-  //   const formData = new FormData(myForm)
-
-  //   fetch('/', {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-  //     body: new URLSearchParams(formData).toString()
-  //   })
-  //     .then(() => console.log('Form successfully submitted'))
-  //     .catch(error => alert(error))
-  // }
 
   render() {
     const { name, subject, action } = this.props
@@ -91,21 +77,21 @@ class Form extends React.Component {
             <input
               className="Form--Input Form--InputText"
               type="text"
-              placeholder="Nombre"
+              placeholder="Tu nombre"
               name="firstname"
               required
             />
-            <span>Nombre</span>
+            <span>Tu nombre</span>
           </label>
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
               type="email"
-              placeholder="Email"
+              placeholder="Tu mejor email"
               name="emailAddress"
               required
             />
-            <span>Email</span>
+            <span>Tu mejor email</span>
           </label>
           {/* <label className="Form--Label has-arrow">
             <select
@@ -122,24 +108,27 @@ class Form extends React.Component {
               <option>Want to say hello</option>
             </select>
           </label> */}
-          <label className="Form--Label">
-            <textarea
-              className="Form--Input Form--Textarea Form--InputText"
-              placeholder="Mensaje"
-              name="message"
-              rows="10"
-              required
-            />
-            <span>Mensaje</span>
-          </label>
+          <div className="Form--Label Form-Checkbox">
+            <input className="Form--Radio" type="radio" id="profesional" name="fav_language" value="profesional" />
+            <label className="Form--Label" for="profesional">
+            Soy profesional del sector (psicología, coaching, mentoría)*
+            </label>
+          </div>
+          <div className="Form--Label Form-Checkbox">
+            <input className="Form--Radio" type="radio" id="no_profesional" name="fav_language" value="no_profesional" />
+            <label for="no_profesional">No soy profesional del sector*</label>
+          </div>
           <label className="Form--Label Form-Checkbox">
             <input
               className="Form--Input Form--Textarea Form--CheckboxInput"
-              name="newsletter"
+              name="profesional"
               type="checkbox"
               required
             />
-            <span>He leído y acepto la política de privacidad</span>
+            <span>
+              * Acepto las condiciones de privacidad y ley de protección de
+              datos
+            </span>
           </label>
           {/* <div
             className="g-recaptcha"
@@ -152,7 +141,7 @@ class Form extends React.Component {
             type="submit"
             disabled={this.state.disabled}
           >
-            Enviar
+            Suscribirme
           </button>
         </form>
       </Fragment>

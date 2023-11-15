@@ -8,10 +8,12 @@
   --midDarkGrey: #bdbdbd;
   --darkGrey: #828282;
   --danger: #C74817;
-  --font-primary: 'Josefin Sans', sans-serif;
+  --accent: #f937ce;
+  --font-primary: 'Urbanist', sans-serif;
   --font-secondary: 'Caveat', cursive;
   --font-system: system-ui; /* postcssPresetEnv */
-  --borderRadius: 20px;
+  --borderRadius-md: 12px;
+  --borderRadius-lg: 20px;
 }
 
 ::-webkit-scrollbar {
@@ -289,6 +291,11 @@ li {
   gap: 5vw;
 }
 
+.home-book {
+  margin: 0 auto;
+  display: block;
+}
+
 figure img {
   height: auto;
   width: 100%;
@@ -321,7 +328,7 @@ figure img {
   text-align: center;
   transition: all 0.2s ease;
   cursor: pointer;
-  border-radius: var(--borderRadius);
+  border-radius: var(--borderRadius-lg);
   align-self: flex-start;
   margin-top: 3rem;
   box-shadow: 0 2px 25px 0 rgb(84 131 157 / 20%);

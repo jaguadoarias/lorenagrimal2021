@@ -3,8 +3,8 @@ template: HomePage
 slug: 
 subheading: Resuelve tu crisis en tiempo récord
 title: 'Psicóloga experta en terapias de alto impacto'
-featuredImage: 'https://ucarecdn.com/8a7f5d79-f12c-4c51-bbe0-903a19aec28d/'
-subtitle: 
+featuredImage: 'https://ucarecdn.com/6c074e35-c0e1-469a-80e6-4d492dd5522c/'
+subtitle:
 meta:
   description: Lorena Grimal psicóloga experta en terapias de alto impacto, te acompaña en procesos de transformación a través de sesiones individuales, sesiones grupales, sesiones online para que alcances tu bienestar emocional con una metodología de mentoría efectiva basada en la terapia breve estratégica.
   title: Lorena Grimal | Psicóloga experta en terapias de alto impacto.

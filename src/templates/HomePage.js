@@ -1,8 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import { CheckCircle } from 'react-feather'
-import { Link } from 'gatsby'
 import PageHeader from '../components/PageHeader'
+import FormSimpleAjax from '../components/FormSimpleAjax'
 import Content from '../components/Content'
 import Layout from '../components/Layout'
 import CookieConsent from 'react-cookie-consent'
@@ -26,7 +26,20 @@ export const HomePageTemplate = ({
            />
 
            <section className="section">
-             <div className="container">
+             <div className="container cols">
+              <div>
+                <p>Suscríbete a mi newsletter y recibe gratis el ebook “Ejercicios para entrenar tu mente”.</p>
+                <img className="home-book" src="https://ucarecdn.com/2eb4c12c-8a3c-448e-b8c7-02c589b0848a/-/preview/200x300/-/format/auto/-/quality/smart/" alt="Libro Ejercicios
+               para entrenar tu mente" />
+              </div>
+               <div>
+                 <FormSimpleAjax />
+               </div>
+             </div>
+           </section>
+
+           <section className="section">
+             <div className="container cols">
                <Content source={body} />
              </div>
            </section>
