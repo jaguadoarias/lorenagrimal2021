@@ -7,7 +7,7 @@ import './Form.css'
 
 class Form extends React.Component {
   static defaultProps = {
-    name: 'Contact Form',
+    name: 'contact-form',
     subject: '', // optional subject of the notification email
     action: '',
     successMessage: 'Gracias por ponerte en conracto conmigo',
@@ -20,52 +20,52 @@ class Form extends React.Component {
     disabled: false
   }
 
-  // handleSubmit = e => {
-  //   e.preventDefault()
-  //   if (this.state.disabled) return
+  handleSubmit = e => {
+    e.preventDefault()
+    if (this.state.disabled) return
 
-  //   const form = e.target
-  //   const data = serialize(form)
-  //   this.setState({ disabled: true })
-  //   fetch(form.action + '?' + stringify(data), {
-  //     method: 'POST'
-  //   })
-  //     .then(res => {
-  //       if (res.ok) {
-  //         return res
-  //       } else {
-  //         throw new Error('Network error')
-  //       }
-  //     })
-  //     .then(() => {
-  //       form.reset()
-  //       this.setState({
-  //         alert: this.props.successMessage,
-  //         disabled: false
-  //       })
-  //     })
-  //     .catch(err => {
-  //       console.error(err)
-  //       this.setState({
-  //         disabled: false,
-  //         alert: this.props.errorMessage
-  //       })
-  //     })
-  // }
-  handleSubmit = event => {
-    event.preventDefault()
-
-    const myForm = event.target
-    const formData = new FormData(myForm)
-
-    fetch('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData).toString()
+    const form = e.target
+    const data = serialize(form)
+    this.setState({ disabled: true })
+    fetch(form.action + '?' + stringify(data), {
+      method: 'POST'
     })
-      .then(() => console.log('Form successfully submitted'))
-      .catch(error => alert(error))
+      .then(res => {
+        if (res.ok) {
+          return res
+        } else {
+          throw new Error('Network error')
+        }
+      })
+      .then(() => {
+        form.reset()
+        this.setState({
+          alert: this.props.successMessage,
+          disabled: false
+        })
+      })
+      .catch(err => {
+        console.error(err)
+        this.setState({
+          disabled: false,
+          alert: this.props.errorMessage
+        })
+      })
   }
+  // handleSubmit = event => {
+  //   event.preventDefault()
+
+  //   const myForm = event.target
+  //   const formData = new FormData(myForm)
+
+  //   fetch('/', {
+  //     method: 'POST',
+  //     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+  //     body: new URLSearchParams(formData).toString()
+  //   })
+  //     .then(() => console.log('Form successfully submitted'))
+  //     .catch(error => alert(error))
+  // }
 
   render() {
     const { name, subject, action } = this.props
@@ -80,7 +80,7 @@ class Form extends React.Component {
           name={name}
           action={action}
           onSubmit={this.handleSubmit}
-          netlify-recaptcha=""
+          // netlify-recaptcha=""
           data-netlify="true"
         >
           {this.state.alert && (
@@ -141,10 +141,10 @@ class Form extends React.Component {
             />
             <span>He leído y acepto la política de privacidad</span>
           </label>
-          <div
+          {/* <div
             className="g-recaptcha"
             data-sitekey="6LfKN3kUAAAAAGIM1CbXmaRZx3LIh_W2twn1tzkA"
-          />
+          /> */}
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
           <button
