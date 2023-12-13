@@ -368,6 +368,7 @@ figure img {
   margin: 1rem 0 2rem;
   line-height: 1.2;
   font-size: 2.2rem;
+  align-items: center;
 }
 .List--inline li {
   display: inline-flex;
@@ -376,7 +377,6 @@ figure img {
 .List li svg {
   margin-right: 2rem;
   flex-shrink: 0;
-  align-self: baseline;
   stroke: var(--secondary);
 }
 .List--only {

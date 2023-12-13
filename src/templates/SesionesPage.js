@@ -40,34 +40,28 @@ export const SesionesPageTemplate = ({
                  <table className="Table">
                    <tr>
                      <th className="thEmpty">&nbsp;</th>
-                     <th className="thLeft">Lorena Grimal</th>
-                     <th className="thRight">Otras terapias previas</th>
+                     <th className="thLeft">Sesiones alto impacto</th>
+                     <th className="thRight">Terapias clásicas</th>
                    </tr>
                    <tr>
                      <td>
-                       <strong>Duración</strong>
+                       <strong>Duración sesión</strong>
                      </td>
-                     <td>
-                       <Check size={18} /> Meses
-                     </td>
-                     <td>Años</td>
+                     <td>Entre 60-90 minutos</td>
+                     <td>Entre 45-60 minutos</td>
                    </tr>
                    <tr>
                      <td>
                        <strong>Frecuencia</strong>
                      </td>
-                     <td>
-                       <Check size={18} /> Diaria
-                     </td>
-                     <td>Semanal/quincenal</td>
+                     <td>Intervenciones diarias</td>
+                     <td>Intervención semanal</td>
                    </tr>
                    <tr>
                      <td>
                        <strong>Cohesión al tratamiento</strong>
                      </td>
-                     <td>
-                       <Check size={18} /> 100% de finalización
-                     </td>
+                     <td>95% de finalización</td>
                      <td>Alrededor del 60%</td>
                    </tr>
                    <tr>
@@ -75,58 +69,90 @@ export const SesionesPageTemplate = ({
                        <strong>Coste</strong>
                      </td>
                      <td>
-                       <Check size={18} /> Menos de 50 euros al día
+                       Inversión inicial más elevada y reducción del tiempo de
+                       terapia
                      </td>
-                     <td>Más de 50 euros al día</td>
+                     <td>Inversión inicial más baja y duración más larga</td>
                    </tr>
                    <tr>
                      <td>
-                       <strong>Disponibilidad del terapeuta</strong>
+                       <strong>Tiempo de tratamiento</strong>
                      </td>
+                     <td>Entre 2-6 meses</td>
+                     <td>Entre 8-24 meses</td>
+                   </tr>
+                   <tr>
                      <td>
-                       <Check size={18} /> 24 horas al día 7 días de la semana
+                       <strong>Contacto con el terapeuta</strong>
                      </td>
+                     <td>De lunes a Domingo</td>
                      <td>El día de la sesión</td>
                    </tr>
                    <tr>
                      <td>
                        <strong>Modelos teóricos</strong>
                      </td>
-                     <td>
-                       <Check size={18} /> Más de 8 modelos teóricos a tu
-                       disposición
-                     </td>
-                     <td>Entre 1 y tres</td>
+                     <td>Más de 8 modelos teóricos a tu disposición</td>
+                     <td>Entre 1 y tres modelos teóricos</td>
                    </tr>
                    <tr>
                      <td>
                        <strong>Apoyo extra</strong>
                      </td>
                      <td>
-                       <Check size={18} /> Formación grupal Mentes Poderosas
-                       GRATIS
+                       Pertenencia a grupo de apoyo, videos, libros y material
+                       de apoyo
                      </td>
-                     <td>Ninguno</td>
+                     <td>Material complementario</td>
                    </tr>
                    <tr>
                      <td>
-                       <strong>Bibliografía</strong>
+                       <strong>Formato de las sesiones</strong>
                      </td>
-                     <td>
-                       <Check size={18} /> Regalo libro
-                       <strong> Diario de emociones</strong>
-                     </td>
-                     <td>Ninguno</td>
+                     <td>Online y grabadas para posterior visualización</td>
+                     <td>Online sin grabación</td>
                    </tr>
                    <tr>
                      <td>
                        <strong>Pilares a analizar y trabajar</strong>
                      </td>
+                     <td>Psicológico, social, laboral y biológico</td>
+                     <td>A demanda de la persona</td>
+                   </tr>
+                   <tr>
                      <td>
-                       <Check size={18} /> Psicológico, social, laboral y
-                       biológico
+                       <strong>RESERVA SESIÓN</strong>
                      </td>
-                     <td>Normalmente solo psicológico</td>
+                     <td>
+                       Escríbeme un{' '}
+                       <a
+                         href="https://wa.me/+34609918411"
+                         title="Escríbeme un whatsapp"
+                         target="_blank"
+                         rel="noopener noreferrer"
+                       >
+                         whatsapp
+                       </a>{' '}
+                       para evaluar tu caso o un mail a{' '}
+                       <a
+                         href="mailto:lorena@lorenagrimal.com"
+                         title="Escríbeme un email"
+                         target="_blank"
+                         rel="noopener noreferrer"
+                       >
+                         lorena@lorenagrimal.com
+                       </a>
+                     </td>
+                     <td>
+                       <a
+                         href="https://buy.stripe.com/aEU29g8yS6Vue8E4gA"
+                         title="Adquiere directamente un bono de sesiones"
+                         target="_blank"
+                         rel="noopener noreferrer"
+                       >
+                         Adquiere directamente un bono de sesiones
+                       </a>
+                     </td>
                    </tr>
                  </table>
                </div>
